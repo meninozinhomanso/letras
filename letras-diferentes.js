@@ -132,6 +132,6 @@ function run(){
 	trocaLetras();
 }
 
-// weirdgenerator.com
-// fsymbols.com
+// MENINOZINHOMANSO
+// 
 
