@@ -79,28 +79,28 @@ function run(){
 			return doublestruckDict[s] || s
 		}).join("");
 
-		var script = "" === message ? "ℭ𝔬𝔡𝔦𝔤𝔬𝔰𝔇𝔢ℭ𝔞𝔯𝔦𝔫𝔥𝔞𝔰" : message.split("").map(function(s) {
-			return CodigosDeCarinhasDict[s] || s
+		var script = "" === message ? "𝒮𝒸𝓇𝒾𝓅𝓉" : message.split("").map(function(s) {
+			return scriptDict[s] || s
 		}).join("");
 
-		var scriptBold = "" === message ? "𝕮𝖔𝖉𝖎𝖌𝖔𝖘𝕯𝖊𝕮𝖆𝖗𝖎𝖓𝖍𝖆𝖘" : message.split("").map(function(s) {
-			return CodigosDeCarinhasDict[s] || s
+		var scriptBold = "" === message ? "𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽" : message.split("").map(function(s) {
+			return scriptBoldDict[s] || s
 		}).join("");
 
-		var circled = "" === message ? "ⒸⓞⓓⓘⓖⓞⓢⒹⓔⒸⓐⓡⓘⓝⓗⓐⓢ" : message.split("").map(function(s) {
-			return CodigosDeCarinhasDict[s] || s
+		var circled = "" === message ? "Ⓒⓘⓡⓒⓛⓔⓓ" : message.split("").map(function(s) {
+			return circledDict[s] || s
 		}).join("");
 
-		var cicledBlack = "" === message ? "🅒🅞🅓🅘🅖🅞🅢🅓🅔🅒🅐🅡🅘🅝🅗🅐🅢" : message.split("").map(function(s) {
-			return CodigosDeCarinhasDict[s] || s
+		var cicledBlack = "" === message ? "🅝🅔🅖🅐🅣🅘🅥🅔 🅒🅘🅡🅒🅛🅔🅓" : message.split("").map(function(s) {
+			return cicledBlackDict[s] || s
 		}).join("");
 
-		var squared = "" === message ? "🄲🄾🄳🄸🄶🄾🅂🄳🄴🄲🄰🅁🄸🄽🄷🄰🅂" : message.split("").map(function(s) {
-			return CodigosDeCarinhasDict[s] || s
+		var squared = "" === message ? "🅂🅀🅄🄰🅁🄴🄳" : message.split("").map(function(s) {
+			return squaredDict[s] || s
 		}).join("");
 
-		var squaredBlack = "" === message ? "🅲🅾🅳🅸🅶🅾🆂🅳🅴🅲🅰🆁🅸🅽🅷🅰🆂" : message.split("").map(function(s) {
-			return CodigosDeCarinhasDict[s] || s
+		var squaredBlack = "" === message ? "🅽🅴🅶🅰🆃🅸🆅🅴 🆂🆀🆄🅰🆁🅴🅳" : message.split("").map(function(s) {
+			return squaredBlackDict[s] || s
 		}).join("");
 
 		var riscado = "" === message ? "R̶̶̶I̶̶̶S̶̶̶C̶̶̶A̶̶̶D̶̶̶O̶" : message.split("").map(function(s) {
@@ -132,6 +132,6 @@ function run(){
 	trocaLetras();
 }
 
-// MENINOZINHOMANSO
-// 
+// weirdgenerator.com
+// fsymbols.com
 
