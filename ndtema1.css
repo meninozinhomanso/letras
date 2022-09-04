@@ -23,7 +23,8 @@ html{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background-color: #2424d3;
+    background-color: #d32464
+;
 }
 
 /* Handle on hover */
@@ -32,7 +33,7 @@ html{
 }
 
 body{
-    background-color: #d8e7f6;
+    background-color: #4b9bea;
 }
 
 
@@ -66,7 +67,7 @@ body{
     color: black;
     position: absolute;
     left: 15px;
-    top: 10px;
+    top: 16px;
     cursor: pointer;
  
     
