@@ -1,5 +1,17 @@
 var powerThoughts = [
-"Se você quer alcançar a grandeza, pare de pedir permissão. ~Anônimo",
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>PENSAMENTOS :)</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<b><i><font size="4" face="Century Gothic">"Se você quer alcançar a grandeza, pare de pedir permissão. ~Anônimo",
 "As coisas funcionam melhor para aqueles que fazem o melhor de como as coisas funcionam. ~John Wooden",
 "Para viver uma vida criativa, devemos perder o medo de estar errado. ~Anônimo",
 "Se você não está disposto a arriscar o usual, terá que se contentar com o comum. ~Jim Rohn",
@@ -95,7 +107,7 @@ var powerThoughts = [
 "Você pode ter que lutar uma batalha mais de uma vez para vencê-la. ~Margaret Thatcher",
 "Fique com fome, fique tolo. ~Steve Jobs",
 "Faça ou morra. ~Mahatama Gandhi",
-"Seja a mudança que você quer ver no mundo. ~Mahatama Gandhi"
+"Seja a mudança que você quer ver no mundo. ~Mahatama Gandhi"</font></i></b>
 
 ];
 
