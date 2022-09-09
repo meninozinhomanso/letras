@@ -3,7 +3,7 @@ var powerThoughts = [
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>PENSAMENTOS :)</title>
+<title>Nova pagina 3</title>
 </head>
 
 <body>
@@ -113,7 +113,7 @@ var powerThoughts = [
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 96) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1996) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '';
