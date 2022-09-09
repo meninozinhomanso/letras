@@ -5,9 +5,9 @@ var powerThoughts = [
 "Se você obedece a todas as regras, acaba perdendo toda a  diversão (Katherine Hepburn)",
 "O prazer dos grandes homens consiste em tornar os outros mais  felizes (Pascal)",
 "Só se vê bem com os olhos do coração. O essencial é invisível aos olhos (St. Exupéry)", 
-"Quando um homem não encontra a si mesmo, não encontra a     nada (Goethe) ",
+"Quando um homem não encontra a si mesmo, não encontra a nada (Goethe) ",
 "O homem de bem exige tudo de si próprio; o homem medíocre espera tudo dos outros (Confúcio)",
-"Sofrer e chorar significa viver (Dostoievski) ",
+"Sofrer e chorar significa viver (Dostoievski)",
 "Se você quer alcançar a grandeza, pare de pedir permissão. ~Anônimo",
 "As coisas funcionam melhor para aqueles que fazem o melhor de como as coisas funcionam. ~John Wooden",
 "Para viver uma vida criativa, devemos perder o medo de estar errado. ~Anônimo",
@@ -105,12 +105,13 @@ var powerThoughts = [
 "Fique com fome, fique tolo. ~Steve Jobs",
 "Faça ou morra. ~Mahatama Gandhi",
 "Seja a mudança que você quer ver no mundo. ~Mahatama Gandhi"
+
 ];
 
-var conteúdo = document.getElementById('conteúdo');
-(função(){
+var content = document.getElementById('content');
+(function() {
 	content.innerHTML= powerThoughts[Math.floor((Math.random() * 96) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
-    document.body.background = 'background/back' + num + '.jpg';
+    document.body.background = 'background/back' + num + '';
 }());
