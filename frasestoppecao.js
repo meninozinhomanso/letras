@@ -95,21 +95,21 @@ var powerThoughts = [
 "A maioria das coisas importantes do mundo foram realizadas por pessoas que continuaram tentando quando parecia não haver nenhuma ajuda. ~Dale Carnegie",
 "Você mede o tamanho da conquista pelos obstáculos que teve que superar para alcançar seus objetivos. ~Booker T. Washington",
 "Dificuldades reais podem ser superadas; são apenas as imaginárias que são invencíveis. ~Theodore N. Vail",
-"É melhor falhar na originalidade do que ter sucesso na imitação. ~Herman Melville",
-"A sorte fica do lado de quem ousa. ~Virgil",
-"As pequenas mentes são domadas e subjugadas pelo infortúnio; mas as grandes mentes se elevam acima dele. ~Washington Irving",
+"É melhor falhar na originalidade do que ter sucesso na imitação. Herman Melville",
+"A sorte fica do lado de quem ousa. Virgil",
+"As pequenas mentes são domadas e subjugadas pelo infortúnio; mas as grandes mentes se elevam acima dele. Washington Irving",
 "O fracasso é o condimento que dá sabor ao sucesso. ~Truman Capote",
-"Não deixe que o que você não pode fazer interfira no que você pode fazer. ~John R. Wooden",
-"Você pode ter que lutar uma batalha mais de uma vez para vencê-la. ~Margaret Thatcher",
-"Fique com fome, fique tolo. ~Steve Jobs",
+"Não deixe que o que você não pode fazer interfira no que você pode fazer. John R. Wooden",
+"Você pode ter que lutar uma batalha mais de uma vez para vencê-la. Margaret Thatcher",
+"Fique com fome, fique tolo. Steve Jobs",
 "Faça ou morra. renato sousa",
-"Seja a mudança que você quer ver no mundo. renato sousa"
-
+"Seja a mudança que você quer ver no mundo. renato sousa",
+"A vida tem a cor vc pinta. meninozinho manso"
 ];
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 105) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 106) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
