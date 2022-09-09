@@ -104,8 +104,5 @@ var content = document.getElementById('content');
 	content.innerHTML= powerThoughts[Math.floor((Math.random() * 96) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
-    document.body.background = '' + num + '.';
-	</head>
-
-
+    document.body.background = 'background/back' + num + '';
 }());
