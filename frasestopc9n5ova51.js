@@ -631,7 +631,7 @@ var powerThoughts = [
 var content = document.getElementById('content');
 (function() {
 	content.innerHTML= powerThoughts[Math.floor((Math.random() * 627) + 1)];
-	var totalCount = 52;
+	var totalCount = 322;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
 }());
