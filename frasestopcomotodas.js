@@ -699,12 +699,11 @@ var powerThoughts = [
 "Brejarum vaca est - A vaca foi pro brejo....·٠ 𝖋🅡𝓪ꌚ𝔢𝓼 ∴ ❣ ੴ •⊰ Codigos Das Carinhas ⊱• ( ͡° ͜ʖ ͡°)/••❦",
 "Vá ver se estou lá na esquina, disse o mágico... Estava!.·٠ 𝖋🅡𝓪ꌚ𝔢𝓼 ∴ ❣ ੴ •⊰ Codigos Das Carinhas ⊱• ( ͡° ͜ʖ ͡°)/••❦",
 "Camisinhas de renda: para combinar com o lencol que está embaixo..·٠ 𝖋🅡𝓪ꌚ𝔢𝓼 ∴ ❣ ੴ •⊰ Codigos Das Carinhas ⊱• ( ͡° ͜ʖ ͡°)/••❦"
-
 ];
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 696) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 695) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
