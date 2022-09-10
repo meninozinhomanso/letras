@@ -626,9 +626,7 @@ var powerThoughts = [
 "Faça ou morra. ~Mahatama Gandhi...-=- Codigos Das Carinhas",
 "Seja a mudança que você quer ver no mundo. ~Mahatama Gandhi...-=- Codigos Das Carinhas",
 "a vida tem a COR voocÊ pinta (anonimo)...-=- Codigos Das Carinhas",
-"SENTIDO da vida é GOZAR..(meninozinhomanso)...-=- Codigos Das Carinhas"
-
-];
+"SENTIDO da vida é GOZAR..(meninozinhomanso)...-=- Codigos Das Carinhas"];
 
 var content = document.getElementById('content');
 (function() {
