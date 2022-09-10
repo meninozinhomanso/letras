@@ -124,8 +124,8 @@ var powerThoughts = [
 "A modéstia é uma das minhas inúmeras virtudes...",
 "A mulher chora antes do casamento; o homem depois.",
 "A mulher do vizinho é sempre mais magra que a nossa...",
-"A namorada disse para o namorado: "Olha o guarda, guarda!",
-"A namorada disse para o namorado: "Olha o tira, tira!",
+"A namorada disse para o namorado: Olha o guarda, guarda!",
+"A namorada disse para o namorado: Olha o tira, tira!",
 "A pior coisa da censura é .",
 "A pior coisa do sexo oral é a vista...",
 "A pomba é o passarinho da Paz, e a mulher a paz do passarinho !",
@@ -166,7 +166,7 @@ var powerThoughts = [
 ];
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 96) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 163) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
