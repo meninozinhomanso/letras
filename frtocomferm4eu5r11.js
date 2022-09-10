@@ -204,7 +204,7 @@ Aqueles que bebem pra esquecer. Favor pagar adiantado.
 Aquilo ali é uma ratazana? (primeira vez que vi um scanner de mao)
 Armando Nascimento de Jesus, vulgo presépio...
 Armarinho: Vento proveniente do mar
-Armas nao matam pessoas..., EU AS MATO!
+Armas nao matam pessoas..., EU AS MATO!"
 ];
 
 var content = document.getElementById('content');
