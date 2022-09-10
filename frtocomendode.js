@@ -697,8 +697,8 @@ var powerThoughts = [
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() *  691) + 1)];
-	var totalCount = 52;
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 691) + 1)];
+	var totalCount = 90;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
 }());
