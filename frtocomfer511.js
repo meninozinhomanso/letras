@@ -97,7 +97,7 @@ var powerThoughts = [
 "Faça ou morra. ~Mahatama Gandhi",
 "Conservar algo que possa recordar-te seria admitir que eu pudesse esquecer-te (Shakespeare)-= Codigos Das Carinhas =-",
 "Amigo é aquele que sabe tudo a seu respeito, e, mesmo assim,ainda gosta de você (Kim Hubbard))-= Codigos Das Carinhas =-",
-" Ninguém é igual a ninguém. Todo ser humano é um estranho ímpar (Carlos Drummond de Andrade)-= Codigos Das Carinhas =-", 
+"Ninguém é igual a ninguém. Todo ser humano é um estranho ímpar (Carlos Drummond de Andrade)-= Codigos Das Carinhas =-", 
 "Se você obedece a todas as regras, acaba perdendo toda a  diversão (Katherine Hepburn)-= Codigos Das Carinhas =-",
 "O prazer dos grandes homens consiste em tornar os outros mais  felizes (Pascal)-= Codigos Das Carinhas =-",
 "Só se vê bem com os olhos do coração. O essencial é invisível aos olhos (St. Exupéry)-= Codigos Das Carinhas =-",
@@ -161,13 +161,13 @@ var powerThoughts = [
 "Se nós não tivessemos defeitos, não teríamos tanto prazer em notá-los nos outros (La Rochefoucauld)-= Codigos Das Carinhas =-",
 "O problema de resistir a uma tentação é que você pode não ter uma segunda chance (Lawrence Peter)-= Codigos Das Carinhas =-", 
 "Grandes realizações são possíveis quando se dá importância aos pequenos começos (Lao Tzu)-= Codigos Das Carinhas =-",
-"o MAL é a aucencia do amor... (ROQUEIRO INSANO)-= Codigos Das Carinhas =-"
+"o MAL é a aucencia do amor... (ROQUEIRO INSANO)-= Codigos Das Carinhas"
 ];
 
 var content = document.getElementById('content');
 (function() {
 	content.innerHTML= powerThoughts[Math.floor((Math.random() * 162) + 1)];
-	var totalCount = ;
+	var totalCount = 91;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
 }());
