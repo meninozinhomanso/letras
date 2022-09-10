@@ -129,11 +129,43 @@ var powerThoughts = [
 "Solidão não é estar só, é estar entre 1000 pessoas e sentir falta de 1.-= Codigos Das Carinhas =-",
 "Há pessoas que amam o poder, e outras que tem o poder de amar.-= Codigos Das Carinhas =-",
 "Se você continua vivo é porque ainda não chegou aonde devia-= Codigos Das Carinhas =-"
+"A vida é sofrer e se divertir. Por isso deve-se sempre estar à altura de qualquer sofrimento.-= Codigos Das Carinhas =-",
+"As pessoas entram em nossa vida por acaso, mas não é por acaso que elas permanecem.-= Codigos Das Carinhas =-",
+"Aqueles que sofreram muito são como quem aprendeu muitas línguas, compreendem a todos e se fazem compreender por todos.-= Codigos Das Carinhas =-",
+"Toda decisão acertada é proveniente de experiência. E toda experiência é proveniente de uma decisão não acertada.-= Codigos Das Carinhas =-",
+"Sempre dizem que o tempo muda as coisas, mas quem tem que mudá-las é você-= Codigos Das Carinhas =-",
+"Quem ama sofre, quem sofre sente, quem sente luta, quem luta vence.-= Codigos Das Carinhas =-",
+"Uma amizade não se compõe de abraços e sim de perdões e desabafos.-= Codigos Das Carinhas =-",
+"Nunca me preocupo com o futuro, muito em breve ele virá. (Albert Einstein)-= Codigos Das Carinhas =-",
+"No fim tudo dá certo, se ainda não deu certo é porque ainda não chegou ao fim.-= Codigos Das Carinhas =-",
+"Neste mundo nada nos torna necessários, a não ser o amor. (Goethe)-= Codigos Das Carinhas =-",
+"Os loucos são certos numa sociedade errada.-= Codigos Das Carinhas =-",
+"O maior mistério do ser humano é tentar tirar da cabeça o que persiste no coração.-= Codigos Das Carinhas =-",
+"Cada um pensa em mudar a humanidade, mas ninguém pensa em mudar a si mesmo.-= Codigos Das Carinhas =-",
+"Atingir um objetivo que você não tem é tão difícil quanto voltar para um lugar que você nunca foi.-= Codigos Das Carinhas =-",
+"Rir de tudo é coisa dos tontos, mas não rir de nada écoisa dos estupidos- Erasmo de Rotterdam-= Codigos Das Carinhas =-",
+"A alegria está na luta, na tentativa, no sofrimentoenvolvido. Não na vitória propriamente dita. Mahatma Gandhi-= Codigos Das Carinhas =-",
+"A vida não consiste em ter boas cartas na mão e sim em jogar bem as que se tem. Josh Billings-= Codigos Das Carinhas =-",
+"Sempre tive pena de mim mesmo porque não tinha sapatos,até que encontrei um homem que não tinha pés.-= Codigos Das Carinhas =-",
+"Os instantes mais dolorosos de nossa vida são aqueles que nos revelam à nós mesmos.-= Codigos Das Carinhas =-",
+"O fato de querer que todos reconheçam a nossa generosidade a destrói imediatamente.-= Codigos Das Carinhas =-",
+"Nenhuma certeza fatal é pior que a dúvida ameaçadora.-= Codigos Das Carinhas =-",
+"A fé é a força da vida. Se o homem vive é porque acredita em alguma coisa.-= Codigos Das Carinhas =-",
+"A felicidade não está no fim da jornada, e sim em cada curva do caminho que percorremos para encontrá-la.-= Codigos Das Carinhas =-",
+"Se seus sonhos estiverem nas nuvens, não se preocupe,pois eles estão no lugar certo; agora construa os alicerses.-= Codigos Das Carinhas =-",
+"Nossas dúvidas são traidoras e nos fazem perder o bem que às vezes poderíamos ganhar pelo medo de tentar.-= Codigos Das Carinhas =-",
+"O que você fizer hoje é muito importante: porque você está trocando um dia da sua vida por isso.-= Codigos Das Carinhas =-",
+"A maior covardia de um homem é depertar o amor de uma mulher sem ter a intenção de amá-la.-= Codigos Das Carinhas =-",
+"Triste não é mudar de idéia. Triste é não ter idéia para mudar.-= Codigos Das Carinhas =-",
+"É fácil apagar as pegadas; difícil, porém, é caminhar sem pisar o chão. Lao-Tsé-= Codigos Das Carinhas =-",
+"Se nós não tivessemos defeitos, não teríamos tanto prazer em  notá-los nos outros (La Rochefoucauld)-= Codigos Das Carinhas =-",
+"O problema de resistir a uma tentação é que você pode não ter  uma segunda chance (Lawrence Peter)-= Codigos Das Carinhas =-", 
+"Grandes realizações são possíveis quando se dá importância aos pequenos começos (Lao Tzu)-= Codigos Das Carinhas =-" 
 ];
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 129) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 160) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
