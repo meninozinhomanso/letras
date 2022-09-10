@@ -96,18 +96,12 @@ var powerThoughts = [
 "Fique com fome, fique tolo. ~Steve Jobs",
 "Faça ou morra. ~Mahatama Gandhi",
 "Seja a mudança que você quer ver no mundo. ~Mahatama Gandhi"
-
 ];
-
 var content = document.getElementById('content');
 (function() {
 	content.innerHTML= powerThoughts[Math.floor((Math.random() * 96) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
-    body {
-  background: url("https://cdn77-pic.xvideos-cdn.com/videos/thumbs169lll/2c/dd/af/2cddafdb183c26e3d505516843935a3b/2cddafdb183c26e3d505516843935a3b.1.jpg") no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-  overflow: hidden;
-}
-}())
+    document.body.background = 'background/back' + num + '.jpg';
+}());
+
