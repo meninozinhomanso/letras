@@ -1,7 +1,7 @@
 var powerThoughts = [
 "Conservar algo que possa recordar-te seria admitir que eu pudesse esquecer-te (Shakespeare)..-=- Codigos Das Carinhas",
 "Amigo é aquele que sabe tudo a seu respeito, e, mesmo assim,ainda gosta de você (Kim Hubbard)..-=- Codigos Das Carinhas",
-" Ninguém é igual a ninguém. Todo ser humano é um estranho ímpar (Carlos Drummond de Andrade) ..-=- Codigos Das Carinhas",
+"Ninguém é igual a ninguém. Todo ser humano é um estranho ímpar (Carlos Drummond de Andrade) ..-=- Codigos Das Carinhas",
 "Se você obedece a todas as regras, acaba perdendo toda a  diversão (Katherine Hepburn)..-=- Codigos Das Carinhas", 
 "O prazer dos grandes homens consiste em tornar os outros mais  felizes (Pascal)..-=- Codigos Das Carinhas",
 "Só se vê bem com os olhos do coração. O essencial é invisível aos olhos (St. Exupéry)..-=- Codigos Das Carinhas", 
@@ -129,8 +129,8 @@ var powerThoughts = [
 "Rico, se puder. Feliz, se souber. Sábio, se quiser...-=- Codigos Das Carinhas",
 "Se não houver frutos, valeu a beleza das flores. Se não houver flor valeu a sombra das folhas. Se não houver folhas, valeu a intenção da semente...-=- Codigos Das Carinhas",
 "A quem tudo foi dado, muito será cobrado...-=- Codigos Das Carinhas",
-"... quem um dia irá dizer que existe razão nas coisas feitas pelo coração.....-=- Codigos Das Carinhas",
-"... e quando chegar a noite cada estrela parecerá uma lágrima.....-=- Codigos Das Carinhas",
+"quem um dia irá dizer que existe razão nas coisas feitas pelo coração.....-=- Codigos Das Carinhas",
+"e quando chegar a noite cada estrela parecerá uma lágrima.....-=- Codigos Das Carinhas",
 "É triste falhar, porém, mais triste ainda é não tentar...-=- Codigos Das Carinhas",
 "Se você não puder ser um pinheiro no alto da montanha, seja uma erva no vale, mas seja.....-=- Codigos Das Carinhas",
 "Mostra a tua força a quem não crê na perfeição do teu poder...-=- Codigos Das Carinhas",
@@ -145,7 +145,7 @@ var powerThoughts = [
 "Nem que eu bebesse o mar encheria o que eu tenho de fundo...-=- Codigos Das Carinhas",
 "Quando nada é certo, tudo é possível...-=- Codigos Das Carinhas",
 "Sempre dizem que o tempo muda as coisas, mas quem tem que mudá-las é você...-=- Codigos Das Carinhas",
-"... quem sabe eu ainda sou uma garotinha, esperando o ônibus da escola sozinha. Cansada com minhas meias 3/4, rezando baixo pelos cantos, por ser uma menina má.....-=- Codigos Das Carinhas",
+"quem sabe eu ainda sou uma garotinha, esperando o ônibus da escola sozinha. Cansada com minhas meias 3/4, rezando baixo pelos cantos, por ser uma menina má.....-=- Codigos Das Carinhas",
 "Ninguém além de nós mesmos pode libertar as nossas mentes...-=- Codigos Das Carinhas",
 "Não sei quando virá o amanhecer, por isso, abro todas as portas...-=- Codigos Das Carinhas",
 "Minha alma chove frio, tristinho. Não te comove este versinho? Carlos Drummond de Andrade..-=- Codigos Das Carinhas",
@@ -270,14 +270,14 @@ var powerThoughts = [
 "Nada escrevi que prestasse, até que comecei a amar...-=- Codigos Das Carinhas",
 "A minha fé mais profunda é que podemos mudar o mundo pela verdade e pelo amor...-=- Codigos Das Carinhas",
 "Nunca encontrei jamais uma companhia tão sociável, tão boa, como a solidão...-=- Codigos Das Carinhas",
-"...que a chuva traga alívio imediato.....-=- Codigos Das Carinhas",
+"que a chuva traga alívio imediato.....-=- Codigos Das Carinhas",
 "Ando só , pois só eu sei aonde ir e por onde andei.....-=- Codigos Das Carinhas",
 "Tudo o que acontece uma vez pode nunca mais acontecer, mas caso aconteça duas vezes, certamente acontecerá uma terceira...-=- Codigos Das Carinhas",
 "Não deixe de avançar por medo de fracassar, pois o fracasso não é o fim de tudo, mas sim uma parte do caminho para alcançar o sucesso...-=- Codigos Das Carinhas",
 "O amor é sempre belo, mas só é grande quando sofre, perdoa ou tem saudade...-=- Codigos Das Carinhas",
 "Conhecimento sem transformação não é sabedoria...-=- Codigos Das Carinhas",
 "Se você tivesse acreditado na minha brincadeira de dizer verdades, teria ouvido as verdades que insisto em dizer brincando, falei muitas vezes como um palhaço, mas nunca desacreditei da seriedade da platéia que sorria. Chaplin..-=- Codigos Das Carinhas",
-"... Igual a você eu sei que não tem, de zero a dez te dou nota cem e até hoje eu lembro de ti, e ainda sonho que um dia você vem.....-=- Codigos Das Carinhas",
+"Igual a você eu sei que não tem, de zero a dez te dou nota cem e até hoje eu lembro de ti, e ainda sonho que um dia você vem.....-=- Codigos Das Carinhas",
 "Eu não acredito mais em amor romântico. Eu acredito em respeito e amizade. Amor romântico traz muito sofrimento. E sempre acaba. Renato Russo..-=- Codigos Das Carinhas",
 "Eu não creio em bruxas, mas que elas existem, existem...-=- Codigos Das Carinhas",
 "A independência nunca é dada a um povo. Ela deve ser conquistada e, uma vez conquistada, defendida...-=- Codigos Das Carinhas",
@@ -693,14 +693,14 @@ var powerThoughts = [
 "Faça ou morra. ~Mahatama Gandhi...-=- Codigos Das Carinhas",
 "Seja a mudança que você quer ver no mundo. ~Mahatama Gandhi...-=- Codigos Das Carinhas",
 "a vida tem a COR voocÊ pinta (anonimo)...-=- Codigos Das Carinhas",
-"SENTIDO da vida é GOZAR.. (meninozinhomanso)...-=- Codigos Das Carinhas"
+"SENTIDO da vida é GOZAR..(meninozinhomanso)...-=- Codigos Das Carinhas"
 ];
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 96) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 694) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
-    document.body.background = 'background/back' + num + '.jpg';
+    document.body.background = 'background/back' + num + '';
 }());
 
