@@ -1,0 +1,21 @@
+body {
+  background: url("https://cdn77-pic.xvideos-cdn.com/videos/thumbs169poster/47/91/b7/4791b7004b08ddccf94914889d48ff2c/4791b7004b08ddccf94914889d48ff2c.24.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 2;
+  overflow: hidden;
+}
+
+h1 {
+  color: #9C27B0;
+  text-shadow: 3px 1px 2px #00BCD4;
+  font-family: serif;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+#text {
+  position: relative;
+  display: hidden;
+  width: 80%;
+  margin-left: 10%;
+}
