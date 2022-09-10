@@ -122,7 +122,6 @@ var powerThoughts = [
 "O universo é uma harmonia de contrários (Pitágoras)-= Codigos Das Carinhas =-",
 "A verdade é a melhor camuflagem. Ninguém acredita nela (Max Friesh)-= Codigos Das Carinhas =-",
 "A televisão é a maior maravilha da ciência a serviço da imbecilidade humana (Barão de Itararé)-= Codigos Das Carinhas =-",
-"Quase todos os homens são capazes de suportar adversidades, mas se quiser por à prova o caráter de um homem, dê-lhe poder (Abraham Lincoln)-= Codigos Das Carinhas =-",
 "Muitas pessoas são bastante educadas para não falar com a boca cheia, porém não se preocupam em fazê-lo com a cabeça oca (Orson Welles)-= Codigos Das Carinhas =-",
 "O inimigo mais perigoso que você poderá encontrar será sempre você mesmo (Nietzsche)-= Codigos Das Carinhas =-", 
 "Por raro que seja um verdadeiro amor, é mais rara ainda a  verdadeira amizade (La Rochefoucauld)-= Codigos Das Carinhas =-",
@@ -166,8 +165,8 @@ var powerThoughts = [
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 162) + 1)];
-	var totalCount = 91;
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 161) + 1)];
+	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
 }());
