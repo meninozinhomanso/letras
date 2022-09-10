@@ -110,7 +110,7 @@ var powerThoughts = [
 " Ninguém é igual a ninguém. Todo ser humano é um estranho ímpar (Carlos Drummond de Andrade)✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥", 
 "Se você obedece a todas as regras, acaba perdendo toda a  diversão (Katherine Hepburn)✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥", 
 "O prazer dos grandes homens consiste em tornar os outros mais  felizes (Pascal)✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥",
-"Só se vê bem com os olhos do coração. O essencial é invisível aos olhos (St. Exupéry)✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥",, 
+"Só se vê bem com os olhos do coração. O essencial é invisível aos olhos (St. Exupéry)✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥",
 "Quando um homem não encontra a si mesmo, não encontra a nada (Goethe)✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥",
 "O homem de bem exige tudo de si próprio; o homem medíocre espera tudo dos outros (Confúcio)✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥",
 "Sofrer e chorar significa viver (Dostoievski)✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥",
@@ -205,16 +205,16 @@ var powerThoughts = [
 "Não junte tesouros neste mundo onde as traças destroem e os ladrões roubam.❦ ═ •⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••♥",
 "Solidão não é estar só, é estar entre 1000 pessoas e sentir falta de 1.❦ ═ •⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••♥",
 "Já não sei encontrarão os meus olhos nos teus olhos. Já não se adoçará junto a ti a minha dor, mas por onde for levarei o teu olhar e para onde fores levarás a minha dor.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦
-"Se você quiser alguém para ser só seu, é só não esquecer: Estarei aqui!❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"Se você quiser alguém para ser só seu, é só não esquecer- Estarei aqui!✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥",
 "Há pessoas que amam o poder, e outros que tem o poder de amar.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
-"... se você quer ser minha namorada, mas que linda namorada você poderia ser....·٠🇫🇷🇦🇸🇪🇸∴ •⊰ Codigos Das Carinhas ⊱• ( ͡° ͜ʖ ͡°)/••❦",
+"se você quer ser minha namorada, mas que linda namorada você poderia ser....·٠🇫🇷🇦🇸🇪🇸∴ •⊰ Codigos Das Carinhas ⊱• ( ͡° ͜ʖ ͡°)/••❦",
 "O verdadeiro homem não é aquele que conquista várias mulheres, mas sim aquele que conquista a mesma mulher várias vezes.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
-"... se eu tivesse um canudinho, eu me enchia de você, e acabava com o vazio, o vazio de viver.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"se eu tivesse um canudinho, eu me enchia de você, e acabava com o vazio, o vazio de viver.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Talvez amar alguém seja o único ponto de partida para tornar nossa a nossa vida.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
-"... saber amar, é saber deixar alguém te amar...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"saber amar, é saber deixar alguém te amar...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "A melhor definição do amor não vale o beijo.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Um não sei o que que nasce não sei onde, vem não sei como e dói não sei porque...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
-"... é preciso amar as pessoas como se não houvesse amanhã, porque se você parar pra pensar, na verdade não há!...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"é preciso amar as pessoas como se não houvesse amanhã, porque se você parar pra pensar, na verdade não há!...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Grande é o sujeito que pode fazer o que deseja; sábio, aquele que deseja fazer o que pode.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Se você vive julgando as pessoas não tem tempo para amá-las.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Se você continua vivo é porque ainda não chegou aonde devia.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
@@ -224,7 +224,7 @@ var powerThoughts = [
 "A vida se torna difícil para quem quer tudo fácil.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Por medo de diminuir deixamos de crescer, por medo de chorar deixamos de rir.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "No momento em que te vi me apaixonei e você sorriu porque soube.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
-"... a noite passada você veio me ver, a noite passada, eu sonhei com você...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"a noite passada você veio me ver, a noite passada, eu sonhei com você...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "O que quer que lhe digam, palavras e idéias podem mudar o mundo.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "A felicidade sempre depende do jeito como você olha as coisas a sua volta.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Liberdade significa ter responsabilidade. É por isso que tanta gente tem medo dela.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
@@ -233,10 +233,10 @@ var powerThoughts = [
 "Rico, se puder. Feliz, se souber. Sábio, se quiser.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Se não houver frutos, valeu a beleza das flores. Se não houver flor valeu a sombra das folhas. Se não houver folhas, valeu a intenção da semente.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "A quem tudo foi dado, muito será cobrado.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
-"... quem um dia irá dizer que existe razão nas coisas feitas pelo coração...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
-"... e quando chegar a noite cada estrela parecerá uma lágrima...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"quem um dia irá dizer que existe razão nas coisas feitas pelo coração...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"e quando chegar a noite cada estrela parecerá uma lágrima...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "É triste falhar, porém, mais triste ainda é não tentar.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",",
-"Se você não puder ser um pinheiro no alto da montanha, seja uma erva no vale, mas seja...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"Se você não puder ser um pinheiro no alto da montanha, seja uma erva no vale, mas seja...✿⊰『 Codigos Das Carinhas 』( ͡° ͜ʖ ͡°)/••♥",
 "Mostra a tua força a quem não crê na perfeição do teu poder.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Percorrer muitas estradas, voltar para casa e olhar tudo como se fosse pela primeira vez.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Aqueles que sofreram muito são como quem aprendeu muitas línguas, compreendem a todos e se fazem compreender por todos.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
@@ -249,7 +249,7 @@ var powerThoughts = [
 "Nem que eu bebesse o mar encheria o que eu tenho de fundo.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Quando nada é certo, tudo é possível.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Sempre dizem que o tempo muda as coisas, mas quem tem que mudá-las é você.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
-"... quem sabe eu ainda sou uma garotinha, esperando o ônibus da escola sozinha. Cansada com minhas meias 3/4, rezando baixo pelos cantos, por ser uma menina má...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
+"quem sabe eu ainda sou uma garotinha, esperando o ônibus da escola sozinha. Cansada com minhas meias 3/4, rezando baixo pelos cantos, por ser uma menina má...❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Ninguém além de nós mesmos pode libertar as nossas mentes.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Não sei quando virá o amanhecer, por isso, abro todas as portas.❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
 "Minha alma chove frio, tristinho. Não te comove este versinho? Carlos Drummond de Andrade❈ ∴ ═══•⊰ Codigos Das Carinhas ⊱• ═ ( ͡° ͜ʖ ͡°)/••❦",
@@ -375,14 +375,14 @@ var powerThoughts = [
 "Nada escrevi que prestasse, até que comecei a amar..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "A minha fé mais profunda é que podemos mudar o mundo pela verdade e pelo amor..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "Nunca encontrei jamais uma companhia tão sociável, tão boa, como a solidão..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
-"...que a chuva traga alívio imediato....·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
+"que a chuva traga alívio imediato....·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "Ando só , pois só eu sei aonde ir e por onde andei....·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "Tudo o que acontece uma vez pode nunca mais acontecer, mas caso aconteça duas vezes, certamente acontecerá uma terceira..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "Não deixe de avançar por medo de fracassar, pois o fracasso não é o fim de tudo, mas sim uma parte do caminho para alcançar o sucesso..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "O amor é sempre belo, mas só é grande quando sofre, perdoa ou tem saudade..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "Conhecimento sem transformação não é sabedoria..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "Se você tivesse acreditado na minha brincadeira de dizer verdades, teria ouvido as verdades que insisto em dizer brincando, falei muitas vezes como um palhaço, mas nunca desacreditei da seriedade da platéia que sorria. Chaplin.·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
-"... Igual a você eu sei que não tem, de zero a dez te dou nota cem e até hoje eu lembro de ti, e ainda sonho que um dia você vem....·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
+"Igual a você eu sei que não tem, de zero a dez te dou nota cem e até hoje eu lembro de ti, e ainda sonho que um dia você vem....·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "Eu não acredito mais em amor romântico. Eu acredito em respeito e amizade. Amor romântico traz muito sofrimento. E sempre acaba. Renato Russo.·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "Eu não creio em bruxas, mas que elas existem, existem..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
 "A independência nunca é dada a um povo. Ela deve ser conquistada e, uma vez conquistada, defendida..·٠🅵🆁🅰🆂🅴🆂 ∴ ﹄•⊰ Codigos Das Carinhas ⊱•﹃  ( ͡° ͜ʖ ͡°)/••❦",
@@ -699,12 +699,14 @@ var powerThoughts = [
 "Brejarum vaca est - A vaca foi pro brejo....·٠ 𝖋🅡𝓪ꌚ𝔢𝓼 ∴ ❣ ੴ •⊰ Codigos Das Carinhas ⊱• ( ͡° ͜ʖ ͡°)/••❦",
 "Vá ver se estou lá na esquina, disse o mágico... Estava!.·٠ 𝖋🅡𝓪ꌚ𝔢𝓼 ∴ ❣ ੴ •⊰ Codigos Das Carinhas ⊱• ( ͡° ͜ʖ ͡°)/••❦",
 "Camisinhas de renda: para combinar com o lencol que está embaixo..·٠ 𝖋🅡𝓪ꌚ𝔢𝓼 ∴ ❣ ੴ •⊰ Codigos Das Carinhas ⊱• ( ͡° ͜ʖ ͡°)/••❦"
+
 ];
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 698) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 696) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
 }());
+
