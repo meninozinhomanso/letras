@@ -95,78 +95,122 @@ var powerThoughts = [
 "Você pode ter que lutar uma batalha mais de uma vez para vencê-la. ~Margaret Thatcher",
 "Fique com fome, fique tolo. ~Steve Jobs",
 "Faça ou morra. ~Mahatama Gandhi",
-"Conservar algo que possa recordar-te seria admitir que eu pudesse esquecer-te (Shakespeare)-= Codigos Das Carinhas =-",
-"Amigo é aquele que sabe tudo a seu respeito, e, mesmo assim,ainda gosta de você (Kim Hubbard))-= Codigos Das Carinhas =-",
-"Ninguém é igual a ninguém. Todo ser humano é um estranho ímpar (Carlos Drummond de Andrade)-= Codigos Das Carinhas =-", 
-"Se você obedece a todas as regras, acaba perdendo toda a  diversão (Katherine Hepburn)-= Codigos Das Carinhas =-",
-"O prazer dos grandes homens consiste em tornar os outros mais  felizes (Pascal)-= Codigos Das Carinhas =-",
-"Só se vê bem com os olhos do coração. O essencial é invisível aos olhos (St. Exupéry)-= Codigos Das Carinhas =-",
-"Quando um homem não encontra a si mesmo, não encontra a nada (Goethe)-= Codigos Das Carinhas =-",
-"O homem de bem exige tudo de si próprio; o homem medíocre espera tudo dos outros (Confúcio)-= Codigos Das Carinhas =-",
-"Sofrer e chorar significa viver (Dostoievski)-= Codigos Das Carinhas =-",
-"Nada existe de mais fragil do que uma criatura iludida a seu próprio respeito (Torres Pastorinho)-= Codigos Das Carinhas =-",
-"É no coração do homem que reside o princípio e o fim de todas as coisas (Tolstoi)-= Codigos Das Carinhas =-",
-"A mentira é uma verdade que se esqueceu de acontecer (Mário Quintana)-= Codigos Das Carinhas =-",
-"O amor é a asa veloz que Deus deu à alma para que ela voe até o céu (Michelângelo Buonarroti)-= Codigos Das Carinhas =-",
-"Quanto menos inteligente um homem é, menos misteriosa lhe parece a existência (Arthur Schopenhauer)-= Codigos Das Carinhas =-",
-"Onde há muito sentimento, a muita dor (Leonardo da Vinci)-= Codigos Das Carinhas =-",
-"Quem não pode o que quer, queira o que pode (Leonardo da Vinci)-= Codigos Das Carinhas =-",
-"O homem superior age antes de falar e depois age de acordo  com suas ações (Confúcio)-= Codigos Das Carinhas =-",
-"A vida é a infância da imortalidade (Goethe)-= Codigos Das Carinhas =-",
-"Quanto mais vigorosa a mente, mais violenta a paixão em que se  deixa envolver (Edmund Burke)-= Codigos Das Carinhas =-",
-"Não concordo com uma só palavra do que dizeis, mas defenderei até a morte vosso direito de dizê-lo (Voltaire)-= Codigos Das Carinhas =-",
-"Se você julga as pessoas, não tem tempo de amá-las (Mark Twain)-= Codigos Das Carinhas =-",
-"Se a sua vida é isenta de fracassos, então você não está   assumindo os riscos necessários (H. Brown)-= Codigos Das Carinhas =-",
-"O homem que venceu na vida é aquele que viveu bem, riu muitas vezes e amou muito (Robert Louis Stevenson)-= Codigos Das Carinhas =-", 
-"Escolha um trabalho que você ame e não terás que trabalhar um  único dia em sua vida (Confúcio)-= Codigos Das Carinhas =-",
-"O universo é uma harmonia de contrários (Pitágoras)-= Codigos Das Carinhas =-",
-"A verdade é a melhor camuflagem. Ninguém acredita nela (Max Friesh)-= Codigos Das Carinhas =-",
-"A televisão é a maior maravilha da ciência a serviço da imbecilidade humana (Barão de Itararé)-= Codigos Das Carinhas =-",
-"Muitas pessoas são bastante educadas para não falar com a boca cheia, porém não se preocupam em fazê-lo com a cabeça oca (Orson Welles)-= Codigos Das Carinhas =-",
-"O inimigo mais perigoso que você poderá encontrar será sempre você mesmo (Nietzsche)-= Codigos Das Carinhas =-", 
-"Por raro que seja um verdadeiro amor, é mais rara ainda a  verdadeira amizade (La Rochefoucauld)-= Codigos Das Carinhas =-",
-"Solidão não é estar só, é estar entre 1000 pessoas e sentir falta de 1.-= Codigos Das Carinhas =-",
-"Há pessoas que amam o poder, e outras que tem o poder de amar.-= Codigos Das Carinhas =-",
-"Se você continua vivo é porque ainda não chegou aonde devia-= Codigos Das Carinhas =-"
-"A vida é sofrer e se divertir. Por isso deve-se sempre estar à altura de qualquer sofrimento.-= Codigos Das Carinhas =-",
-"As pessoas entram em nossa vida por acaso, mas não é por acaso que elas permanecem.-= Codigos Das Carinhas =-",
-"Aqueles que sofreram muito são como quem aprendeu muitas línguas, compreendem a todos e se fazem compreender por todos.-= Codigos Das Carinhas =-",
-"Toda decisão acertada é proveniente de experiência. E toda experiência é proveniente de uma decisão não acertada.-= Codigos Das Carinhas =-",
-"Sempre dizem que o tempo muda as coisas, mas quem tem que mudá-las é você-= Codigos Das Carinhas =-",
-"Quem ama sofre, quem sofre sente, quem sente luta, quem luta vence.-= Codigos Das Carinhas =-",
-"Uma amizade não se compõe de abraços e sim de perdões e desabafos.-= Codigos Das Carinhas =-",
-"Nunca me preocupo com o futuro, muito em breve ele virá. (Albert Einstein)-= Codigos Das Carinhas =-",
-"No fim tudo dá certo, se ainda não deu certo é porque ainda não chegou ao fim.-= Codigos Das Carinhas =-",
-"Neste mundo nada nos torna necessários, a não ser o amor. (Goethe)-= Codigos Das Carinhas =-",
-"Os loucos são certos numa sociedade errada.-= Codigos Das Carinhas =-",
-"O maior mistério do ser humano é tentar tirar da cabeça o que persiste no coração.-= Codigos Das Carinhas =-",
-"Cada um pensa em mudar a humanidade, mas ninguém pensa em mudar a si mesmo.-= Codigos Das Carinhas =-",
-"Atingir um objetivo que você não tem é tão difícil quanto voltar para um lugar que você nunca foi.-= Codigos Das Carinhas =-",
-"Rir de tudo é coisa dos tontos, mas não rir de nada écoisa dos estupidos- Erasmo de Rotterdam-= Codigos Das Carinhas =-",
-"A alegria está na luta, na tentativa, no sofrimentoenvolvido. Não na vitória propriamente dita. Mahatma Gandhi-= Codigos Das Carinhas =-",
-"A vida não consiste em ter boas cartas na mão e sim em jogar bem as que se tem. Josh Billings-= Codigos Das Carinhas =-",
-"Sempre tive pena de mim mesmo porque não tinha sapatos,até que encontrei um homem que não tinha pés.-= Codigos Das Carinhas =-",
-"Os instantes mais dolorosos de nossa vida são aqueles que nos revelam à nós mesmos.-= Codigos Das Carinhas =-",
-"O fato de querer que todos reconheçam a nossa generosidade a destrói imediatamente.-= Codigos Das Carinhas =-",
-"Nenhuma certeza fatal é pior que a dúvida ameaçadora.-= Codigos Das Carinhas =-",
-"A fé é a força da vida. Se o homem vive é porque acredita em alguma coisa.-= Codigos Das Carinhas =-",
-"A felicidade não está no fim da jornada, e sim em cada curva do caminho que percorremos para encontrá-la.-= Codigos Das Carinhas =-",
-"Se seus sonhos estiverem nas nuvens, não se preocupe,pois eles estão no lugar certo; agora construa os alicerses.-= Codigos Das Carinhas =-",
-"Nossas dúvidas são traidoras e nos fazem perder o bem que às vezes poderíamos ganhar pelo medo de tentar.-= Codigos Das Carinhas =-",
-"O que você fizer hoje é muito importante: porque você está trocando um dia da sua vida por isso.-= Codigos Das Carinhas =-",
-"A maior covardia de um homem é depertar o amor de uma mulher sem ter a intenção de amá-la.-= Codigos Das Carinhas =-",
-"Triste não é mudar de idéia. Triste é não ter idéia para mudar.-= Codigos Das Carinhas =-",
-"É fácil apagar as pegadas; difícil, porém, é caminhar sem pisar o chão. Lao-Tsé-= Codigos Das Carinhas =-",
-"Se nós não tivessemos defeitos, não teríamos tanto prazer em notá-los nos outros (La Rochefoucauld)-= Codigos Das Carinhas =-",
-"O problema de resistir a uma tentação é que você pode não ter uma segunda chance (Lawrence Peter)-= Codigos Das Carinhas =-", 
-"Grandes realizações são possíveis quando se dá importância aos pequenos começos (Lao Tzu)-= Codigos Das Carinhas =-",
-"o MAL é a aucencia do amor... (ROQUEIRO INSANO)-= Codigos Das Carinhas"
+A Challenger tinha sistema de segurança projetado pelo Windows
+A Inteligência artificial nao funciona por causa da Burrice Natural.
+A Kaiser dá dor de cabeca... ninguém pode negar!
+A bebida mata lentamente! E daí? Nao estou com pressa...
+A beleza nao esta apenas nas curvas, esta tambem nas vias de acesso.
+A cal é virgem porque o pincel é brocha!
+A carne näo aumentou, o boi é que diminuiu.
+A chance dessa tag ser selecionada era de uma em 1040!
+A clara do ovo e o açúcar, no forno, suspiravam...
+A coisa mais profunda em certas mulheres é o sono!
+A esperança e a sogra sao sempre as últimas a morrer...
+A esperança é a última que morre.... MAS MORRE!!!
+A felicidade de cada Calouro está na morte de cada Veterano!!!
+A felicidade se constrói a partir das pequenas coisas feitas com amor.
+A fita é virgem porque o gravador é stéreo
+A fortuna faz amigos. A desgraça prova se eles existem de fato.
+A história se repete porque ninguém presta atençao.
+A ignorancia é temporária, a estupidez nao.
+A imaginaçao é mais importante que o conhecimento...
+A informaçäo mais necessária é sempre a menos disponível.
+A ligaçäo caiu. Será que ela se machucou muito ??
+A mata é virgem porque o vento é fresco
+A melhor defesa contra lógica é estupidez.
+A mente, como os pára-quedas, só funcionam quando abertas.
+A modéstia morreu quando a falsa modéstia nasceu.
+A modéstia é uma das minhas inúmeras virtudes...
+A mulher chora antes do casamento; o homem depois.
+A mulher do vizinho é sempre mais magra que a nossa...
+A namorada disse para o namorado: "Olha o guarda, guarda!"
+A namorada disse para o namorado: "Olha o tira, tira!"
+A pior coisa da censura é .
+A pior coisa do sexo oral é a vista...
+A pomba é o passarinho da Paz, e a mulher a paz do passarinho !
+A primeira amnésia a gente nunca esquece !
+A proteçao anti-bomba do World Trade Center era feita por Windows
+A sensaçao é boa, mas a posiçao é ridícula!
+A sensibilidade de um homem está na força do seu punho.
+A tagline da mensagem anterior é ridicula.
+A tcla do mu tclado stá com um pquno problminha...
+A teimosia é a força de vontade do chato.
+A terra está 98% cheia. Delete quem voce puder.
+A verdade é fruto do tempo, e nao da autoridade...
+A vida começa aos 14.4K
+A vida nao é um conto de fadas, mas um conto de fatos...
+A vida se vive para frente, mas se entende para trás.
+A vida é imprevisível... Coma a sobremesa antes!
+A vida é uma doença sexualmente transmissível.
+A vingança tarda mais näo falha!!!
+A virgindade é curável, se detectada cedo!
+A véia Quacker, a avó do mingau...
+A última palavra é sempre da mulher: SIM SENHOR !!!
+A: nao encontrado... B: nao encontrado... formatando C:...
+ABISMADO: Pessoa que sofreu queda em abismo
+AMOR: 4 letras de felicidade... ADEUS: 5 letras que choram...
+ATENCAO: Feche a DOOR quando sair! Ass: Sysop.
+ATENÇAO, todos dados do disco rígido serao apagados. Continua (S/S)?
+ATROPELADO: Nú Artístico
+AVISO! É proibido por lei remover esta tagline!
+Abandone as esperanças aquele que posta mensagens aqui.
+Abandone as esperanças aquele que teclar --+ aqui.
+Abismo? Que abiiiiiiiiiiiiiiiiiiiiiiiiiisssssssssssmmo...
+Acelere seu XT: 9.8 m/s²
+Acentua&@o % um problema que j$ foi superado.
+Acha seu 286 lento? Volte a usar um TK!
+Acho qUe miNHa TEclA CaPS loCk eSta COm dEfeIto...
+Acho que penso, logo acho que existo...
+Acho que vou fazer umas Tag's hoje...
+Achoqueaminhabarradeespaçosestácomdefeito...
+Aconteça o que acontecer, näo babe no teclado!
+Acredita em reencarnaçäo? Me dê U$5000 e te pago na próxima
+Adao foi sortudo mesmo... nao tinha sogra nem irmao...
+Adoro XT! Detesto 486...  é muito rápido...
+Adäo desesperado dizia: "Näo fui eu! Näo fui eu!"
+Adäo disse a Eva: "Eu tenho, você näo tem!!!"
+Adäo foi sortudo mesmo. Näo tinha sogra e nem irmäo!
+Agir sem pensar é como atirar sem mirar.
+Agora säo 23:53. Você sabe onde seu modem está?
+Agua mole em pedra dura, tanto bate... até que molha!
+Ahá, agora você vem cuspir no prato que te comeu...
+Ajoelhou, tem que dar reply !
+Algumas curas säo piores do que a doença.
+Alguns dias säo täo lindos que é um crime sair da cama.
+Alguns espelhos deveriam pensar duas vezes antes de refletir algo.
+Ama teu próximo! Ainda mais se for uma loira de olhos azuis!
+Amador: O mesmo que masoquista
+Amante é o namorado que leva pijama...
+Amazonas: Indivíduo apaixonado por áreas de baixo meretrício
+Amigo a gente escolhe, parente a gente tolera.
+Amigo: Alguém que tem os mesmos inimigos que você.
+Amigos chegam e se vao, inimigos se acumulam.
+Amizades as vezes nao se conservam em álcool.
+Amor -- uma grave doença mental. - Platäo
+Anatomia é destino!
+Anciäo é multado por passar dos 80.
+Antarctica... Uma paixao nacional como a mulher dos outros
+Antes de ser martelo lembre-se que tb já foi prego.
+Antes eu nao era perfeito, faltava-me a modéstia...
+Antes à tarde do que nunca...
+Antigas tradiçöes tem a força de uma lei.
+Antigos espíritos do mau, tranformem essa forma decadente em MUNRRAH
+Apaguei meu arquivo de TAG, e agora ?
+Aquela baiana vive de renda: é rendeira.
+Aquela tag é VERDADEIRA ->   <- Aquela tag é FALSA.
+Aquele que nunca admite ser criança, jamais será adulto!
+Aqueles que bebem para esquecer, geralmente esquecem de pagar a conta.
+Aqueles que bebem pra esquecer. Favor pagar adiantado.
+Aquilo ali é uma ratazana? (primeira vez que vi um scanner de mao)
+Armando Nascimento de Jesus, vulgo presépio...
+Armarinho: Vento proveniente do mar
+Armas nao matam pessoas..., EU AS MATO!
 ];
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 161) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 205) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
-    document.body.background = 'background/back' + num + '.jpg';
+    document.body.background = 'background/back' + num + '';
 }());
