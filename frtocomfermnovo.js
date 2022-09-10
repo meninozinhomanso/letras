@@ -33,6 +33,7 @@ var powerThoughts = [
 "Bem-aventurados aqueles que podem dar sem lembrar e receber sem esquecer. ~Anônimo",
 "Faça uma coisa todos os dias que te assusta. ~Anônimo"
 
+
 ];
 
 var content = document.getElementById('content');
@@ -40,5 +41,5 @@ var content = document.getElementById('content');
 	content.innerHTML= powerThoughts[Math.floor((Math.random() * 32) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
-    document.body.background = 'background/back' + num + '';
+    document.body.background = 'background/back' + num + '.jpg';
 }());
