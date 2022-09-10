@@ -158,15 +158,15 @@ var powerThoughts = [
 "A maior covardia de um homem é depertar o amor de uma mulher sem ter a intenção de amá-la.-= Codigos Das Carinhas =-",
 "Triste não é mudar de idéia. Triste é não ter idéia para mudar.-= Codigos Das Carinhas =-",
 "É fácil apagar as pegadas; difícil, porém, é caminhar sem pisar o chão. Lao-Tsé-= Codigos Das Carinhas =-",
-"Se nós não tivessemos defeitos, não teríamos tanto prazer em  notá-los nos outros (La Rochefoucauld)-= Codigos Das Carinhas =-",
-"O problema de resistir a uma tentação é que você pode não ter  uma segunda chance (Lawrence Peter)-= Codigos Das Carinhas =-", 
+"Se nós não tivessemos defeitos, não teríamos tanto prazer em notá-los nos outros (La Rochefoucauld)-= Codigos Das Carinhas =-",
+"O problema de resistir a uma tentação é que você pode não ter uma segunda chance (Lawrence Peter)-= Codigos Das Carinhas =-", 
 "Grandes realizações são possíveis quando se dá importância aos pequenos começos (Lao Tzu)-= Codigos Das Carinhas =-",
-"o MAL é a aucencia do amor... (ROQUEIRO INSANO))-= Codigos Das Carinhas =-"
+"o MAL é a aucencia do amor... (ROQUEIRO INSANO)-= Codigos Das Carinhas =-"
 ];
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 162) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 122) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
