@@ -703,7 +703,7 @@ var powerThoughts = [
 
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 699) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 698) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
