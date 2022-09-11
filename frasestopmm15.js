@@ -605,9 +605,7 @@ var powerThoughts = [
 "Mulher é tudo igual: so muda o endereco !",
 "Murphy baseou toda sua pesquisa no Windows",
 "Mäe que consente engorda uma serpente.",
-"NAO TIRE O FONE DO GANCÎ»+Æßë¢+Êþ  NO CARRIER",
 "NOKU. O refrigerante japones! Tome NOKU voce tambem! Hai!",
-"Na duvida use Ctrl+Alt+Del+Soco na parede",
 "Na guerra dos sexos, ambos os lados dormem sempre com o inimigo.",
 "Na natureza nada se cria, nada se perde, tudo se formata...",
 "Nada mais me impressiona. Já fui a todas as festas!",
@@ -616,7 +614,7 @@ var powerThoughts = [
 "Nada é tao simples que nao possa ser avacalhado!",
 "Nada é täo ruim que näo possa piorar...",
 "Nada é täo simples que näo possa ser avacalhado.",
-"Namorada Grávida: (A)borta, (R)econhece ou (F)oge?",
+"Namorada Grávida:(A)borta, (R)econhece ou (F)oge?",
 "Nao adianta afogar as mágoas, elas já aprenderam a nadar!",
 "Nao adianta.. a fila ao lado sempre é mais rapida!",
 "Nao bebo e nao fumo, mas às vezes minto...",
@@ -961,7 +959,6 @@ var powerThoughts = [
 "Seguranca, é ter uma despensa sempre cheia!",
 "Segurança é um jogo em que o objetivo final nunca é encontrado.",
 "Seja criativo, faca seu proprio eclipse. Feche os olhos ao meio-dia.",
-"Seja esperto!! Roube TAGs!!!!!",
 "Seja gentil com os fumantes!! Eles vivem bem menos...",
 "Seja socio do CCIT!!!! (Centro da Cultura Inutil de Taglines)",
 "Seja você mesmo, mesmo que você seja igual aos outros...",
@@ -979,28 +976,11 @@ var powerThoughts = [
 "Sexo antes do casamento? Sou a favor, desde que näo atrase a cerimônia!",
 "Sexo näo é droga!  Pratique!  Sou bom instrutor!",
 "Sexo oral é prático, porque pode ser feito, inclusive, por telefone.",
-"Sexo prejudica a memória e outra coisa que nao me lembro agora...",
-"Sexo: Tô fora, tô dentro, tô fora, tô dentro, tô fora, tô dentro...",
-"Sharon Stone näo é loira burra, é loira BOA!",
-"Slogan de cartao de crédito russo: Nao saia de casa com ou sem ele!",
-"Sobrou tempo: (G)lobal War (T)etris (B)locks",
-"Sogra, FIAT e MS-DOS 6 só servem para dar dor de cabeça...",
-"Sogra, FIAT e MSDOS 6 só servem p/ dar do de cabeça...",
-"Sogro rico e porco gordo só dao lucro depois de mortos...",
-"Soluçäo: Soluço muito forte",
-"Some um BUG com um BAD SECTOR e multiplique por 10: WINDOWS",
-"Sou tao macho que o meu lado feminino é sapatao!",
-"Subi na árvore para ver meu amor passar.Ela passou,eu desci.",
-"Sysop näo erra: ele se engana, se esquece... Mas errar nunca!",
-"Só a mula mesmo que nega sua própria família.",
-"Só em seus sonhos você é realmente livre.",
-"Só no Brasil existe isso de pai arranjar mulher pro filho...",
-"Nuvem é igual patrão, quando some o dia fica lindo!",
 "Quem acha tudo gozado é faxineira de motel."
 ];
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 997) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 977) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
