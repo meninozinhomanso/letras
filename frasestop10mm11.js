@@ -498,10 +498,8 @@ var powerThoughts = [
 "Homem que é homem nao toma o mel, come a abelha!",
 "Homossexual: Sabäo para lavar as partes íntimas",
 "Há males que vem para pior...",
-"o MAL é a AUSENCIA do amor. (ROQUEIRO INSANO)",
 "Há mulheres que säo como estradas: tem curvas perigosas.",
 "Há mulheres que só sao fiéis à moda...",
-"sentido da vida é GOZAR. (meninozinhomanso)",
 "I don t care. Traduçäo: Eu näo quero",
 "Ignorância é temporária. Estupidez é eterna.",
 "Imaginaçao é mais importante que conhecimento...",
@@ -1138,7 +1136,6 @@ var powerThoughts = [
 "Brasileiro sË fecha a porta depois de roubado.",
 "Dívida externa não se paga, se administra. (ministro delfin neto)",
 "Dois homens morrem com remorsos, quem teve e não gastou e quem teve e não ensinou. (montesquieu)",
-"É mais fácil um camelo passar pelo buraco de uma agulha que um rico entrar no reino de deus. (jesus)",
 "É mais fácil maldizer dos homens do que instruí-los e melhorá-los. (castro nery)",
 "É melhor o pouco na memória que o muito no esquecimento. (hugh latimer)",
 "Eu não estando podem até me bater. (sócrates)",
@@ -1149,7 +1146,7 @@ var powerThoughts = [
 ];
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1146) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1143) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
