@@ -1149,7 +1149,7 @@ var powerThoughts = [
 ];
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1157) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1146) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
