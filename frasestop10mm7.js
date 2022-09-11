@@ -580,7 +580,7 @@ var powerThoughts = [
 "Meu modem está de greve: Só conecta a 2400!",
 "Meu médico: Sinto, cabelo e inteligência näo cabem na mesma cabeça.",
 "Meu outro micro é um TK-82C !!!",
-"Meus desejos, para mim, säo ordens.
+"Meus desejos, para mim, säo ordens.",
 "a vida tem a cor que vc pinta",
 "Viva cada dia como se fosse o último, um dia você acerta",
 "Minha avó morreu aos 115 anos... no parto!",
@@ -791,7 +791,8 @@ var powerThoughts = [
 "Os BBS advertem: ler msg On-Line é BURRICE !",
 "Os EUA usaram o Windows durante a guerra do Vietnä.",
 "Os Incas se defendiam dos espanhóis usando Windows.",
-"Os Lemmings nada mais sao do que Smurfs moderninhos...
+"Os Lemmings nada mais sao do que Smurfs moderninhos...",
+"Eu sou macho! Uso xampu que arde nos olhos",
 "Os Tasmanianos, que nunca praticaram o adultério, se extinguiram.",
 "Os atos geralmente estäo certos, as razöes, dificilmente.",
 "Os bêbados sonham com o basquete, só pra ficar na boca no garrafao!",
@@ -1162,7 +1163,7 @@ var powerThoughts = [
 ];
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1159) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1160) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
