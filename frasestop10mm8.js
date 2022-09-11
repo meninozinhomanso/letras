@@ -1127,7 +1127,6 @@ var powerThoughts = [
 "Windows: Näo-reciclável, Näo-biodegradável, e Näo-utilizável.",
 "Windows: a 486 to XT conversion kit.",
 "Xô bichano!! larga meu mouse...",
-"_<°-°>_  RAM normal    _<°°>_  RAM comprimida  _<^*^>_  RAM travada",
 "de emocao a sua vida : faca pipocas com a panela aberta !",
 "jogos via modem. A telepar agradece.....",
 "mais vale um milhonário vivo do que um moralista morto.",
@@ -1163,7 +1162,7 @@ var powerThoughts = [
 ];
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1160) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1150) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
