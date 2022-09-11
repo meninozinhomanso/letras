@@ -694,7 +694,6 @@ var powerThoughts = [
 "Näo é a LEE que tem bolso pequeno. E você que usa 51/4.",
 "Näo é da conta de ninguém, nem da minha.",
 "Näo é um bug, é um feature.",
-"Näääääoooo, näo pise ai, näää¶«Íñ-",
 "O Alceni Guerra disse: Papai Noel, esqueça a minha Caloi!!!.",
 "O Amâncio Pinto e seu irmao H. Romeu Pinto adoram o Clodovil...",
 "O Bateau Mouche foi projetado utilizando o Windows",
@@ -800,7 +799,6 @@ var powerThoughts = [
 "Os tímidos só abrem a boca quando nao têm nada a dizer...",
 "Ouro e prata fazem porcos parecerem limpos.",
 "Ouvindo se aprende, falando se torna repetitivo.",
-"P l a n e j e  a n t e s  t u d o  a q u i l o  q u e  v oce quer faze",
 "PADRÄO: padre muito alto e gordo.",
 "Não bebo água... os peixes transam nela!",
 "PC Farias......  O Pior PC que existe, pior até que os XT....",
@@ -908,7 +906,6 @@ var powerThoughts = [
 "RIP imulator... bah! Até meu cachorro se finge de morto...",
 "Radical: Alguém com idéias diferentes das nossas.",
 "Red Wave 1.0 - dizem que é o BW3 que ta morrendo de vergonha!",
-"Redutor de velocidade _¦_¦_¦_¦_    - favor reduzir para 2400 bps.",
 "Roma tinha um sistema contra incendios controlado pelo Windows.",
 "Rosane Collor: Vamos passar uns dias no Egito depois vamos ao Cairo."
 "SAY YOU: Mama das mulheres. Ex: Os say you daquela mulher sao grandes.",
@@ -1061,7 +1058,7 @@ var powerThoughts = [
 ];
 var content = document.getElementById('content');
 (function() {
-	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1058) + 1)];
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 1055) + 1)];
 	var totalCount = 52;
     var num = Math.floor((Math.random() * totalCount) + 1);
     document.body.background = 'background/back' + num + '.jpg';
