@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 19px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e73e3e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #673AB7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body{
+    background-color: #d8e7f6;
+}
+
+
+.head{
+    width: 100%;
+    height: auto;
+    box-shadow: 9px 9px 9px #323232;
+    z-index: 999;
+    background-color: #084372;
+    
+    
+}
+.head .brand-box{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+.head .brand-box{
+/*    color: #2B6CB0;*/
+    font-size: 3vw;
+    background: rgb(4 29 54);
+    background: -webkit-linear-gradient(left, rgb(2 23 44) 0%, rgb(3 45 54) 49%, rgb(15 31 48) 100%);
+    background: -o-linear-gradient(left, rgb(4 35 67) 0%, rgb(4 61 73) 49%, rgba(55,124,195,1) 100%);
+    background: linear-gradient(to right, rgb(5 71 138) 0%, #673AB7 49%, rgb(11 62 114) 100%);
+}
+.brand-box .bar{
+    display: block;
+    color: black;
+    position: absolute;
+    left: 19px;
+    top: 10px;
+    cursor: pointer;
+ 
+    
+}
+
+.brand-box .bar div{
+    width: 20px;
+    height: 5px;
+    background-color: #ab1717;
+    margin-top: 4px;
+    background-color:#126dcb;
+}
+
+.brand-box .bar .nd{
+    width: 20px;
+
+}
+/*Back-top*/
+
+.back-top{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #2B6CB0;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: green;
+    transition: 0.4s;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e9d9d9;
+    line-height: 35px;
+    z-index: 9999;
+    box-shadow: 0px 0px 3px #323232;
+    background-color: aliceblue;
+}
+
+.back-top:hover{
+    border: none;
+    box-shadow: 1px 2px 4px #323232;
+    background-color: #07294c;
+    color: white;
+}
+#scroll{
+    width:40px;
+    height: 40px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #e24854;
+    color: aliceblue;
+    cursor: pointer;
+    display: none;
+}
+#scroll:hover{
+    box-shadow: 0px 0px 5px #323232;
+}
+
+.slide-menu{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    opacity: 0.95;
+    box-shadow: 2px 4px 4px #323232;
+    background: rgb(14 82 96);
+    background: linear-gradient(90deg, rgb(9 66 78) 0%, rgb(6 51 97) 49%, rgb(10 77 91) 100%);
+}
+
+.slide-menu .link{
+    display: block;
+    width: 90%;
+    opacity: 1;
+    padding: 4px 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 19px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid red;
+}
+.slide-menu .cut{
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.slide-menu .link:hover{
+    background-color: #cbd3dc;
+}
+
+.container{
+    width:100%;
+}
+
+.container .text1{
+    text-align: center;
+    padding-top: 19px;
+    font-weight: 700;
+}
+
+.container .content{
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-top: 20px;
+    
+}
+
+.input-box{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    height:auto;
+    background-color: #13628f;
+    box-shadow: 1px 2px 3px #323232;
+    z-index: 999 !important;
+    background: rgb(10 75 89);
+    background: linear-gradient(90deg, #673AB7 0%, #FF9800 49%, #FF5722 100%);
+}
+
+.input-box input{
+    width: 99%;
+    height: 80px;
+    margin: 10px 0;
+    text-align: center;
+    border: 9px solid #000000;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: -1 -2 -3 #323232;
+    
+    
+}
+
+
+
+.input-box .share-box{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.input-box .share-box a{
+    margin: 0 10px;
+    box-shadow: 0px 0px 6px #323232;
+}
+
+
+.style-name{
+    width:100%;
+    height:auto;
+}
+.style-name .fancy-text{
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 20px;
+    border: 2px solid #d8e7f6;
+    transition: 0.4s;
+    box-shadow: inset 0px 0px 10px #84b2e2;
+    cursor: copy;
+
+}
+
+.style-name .fancy-text:hover{
+    border: 2px solid #5492d2;
+
+}
+
+/*copy*/
+p.copied {
+	position: fixed;
+	width: 260px;
+    right: 0;
+	bottom: 25%;
+    background: #0141d0;
+    color: #fff;
+    padding: 5px 10px;
+	border-radius: 0;
+	z-index: 99999;
+	box-shadow: 0px 0px 8px 0 rgba(0,0,0,.41);
+}
+p.copied span {
+    float: left;
+    width: 100%;
+}
+p.copied .text {
+    background: transparent;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
+.more{
+    background: rgb(154,211,223);
+    background: linear-gradient(90deg, rgba(154,211,223,1) 0%, rgba(55,124,195,1) 49%, rgba(154,211,223,1) 100%);
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.article-box{
+    margin-top: 20px;
+    padding: 0px 10px;
+    padding-left: 20px;
+}
+.article-box h1,h2,h3{
+    padding: 5px 0px;
+    }
+.main-img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+.article-box .var{
+     width: 30%;
+}
+/*Footer*/
+.foot{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foot .copy-box{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: black;
+    line-height: 40px;
+}
+
+.copy-box a{
+    color: #494848;
+
+}
+
+@media only screen and (max-width: 500px) {
+    .brand-box .brand{
+        font-size: 8vw;
+    }
+    
+    .input-box input{
+        width: 95%;
+    }
+    
+    .input-box .share-box{
+        height: 40px;
+        position: fixed;
+        bottom: 0;
+        background-color: #5b9ce2;
+        line-height: 40px;
+        box-shadow: 0px -2px 6px #323232;
+    }
+    .input-box .share-box a{
+        margin: 0px 10px;
+        font-size: 18px;
+    }
+    
+    .slide-menu{
+    width: 100%;
+    }
+    
+    .more{
+        font-size: 16px;
+    }
+    
+    .article-box h1,h2,h3{
+    padding: 5px 0px;
+    }
+    
+    .article-box h1{
+        font-size: 24px;
+    }
+    
+    .article-box h2{
+        font-size: 22px;
+     }
+    .main-img{
+        width: 100%;
+    }
+    .article-box .var{
+     width: 100%;
+}
+}
