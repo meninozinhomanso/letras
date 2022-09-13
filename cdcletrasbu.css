@@ -1,0 +1,144 @@
+body * {
+    font-family: 'Open Sans', sans-serif; 
+    color: #222;
+}
+body {
+    background:#120606;  
+}
+#main {
+    margin: 0 auto;
+    width: 450px; 
+    padding: 0em;
+    box-sizing: border-box;
+}
+.content-box {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    margin-top: 1em;
+    background:#b44343;
+}
+.loadmore a {
+    text-align: center;
+    background: #4a6887;
+    padding: 9px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+	background-image: linear-gradient( 145deg,#161b27,#04dbf1);
+    color: #fff;
+}
+#input {
+    width: 100%;
+    outline: 0;
+    text-align: center;
+    border: none;
+    height: 70px;
+    padding: 0;
+    border: 0;
+    margin: 0 !important;
+    font-size: 18px;
+    display: ;
+    border-radius: 30px;
+    background: #FFEB3B;
+    padding-left: 16px;
+}
+#output-wrapper {
+    height: fit-content;
+    padding: 0.1em 1em 1em 1em;
+}
+#output {
+    font-size: 1.4em;
+    word-break: break-word;
+}
+
+@media only screen and (max-width: 650px) {
+#output {
+    font-size: 1em;
+}
+}
+
+.font-box-style {
+    margin-top: 16px;
+    position: relative;
+}
+
+.font-box-style span.name {
+    float: left;
+    background: #f1f1f1;
+    color: #777;
+    display: none;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: -5px;
+    border-radius: 9px 0;
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.font-box-style p {
+    padding: 5px 0;
+    margin: 0;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: #fff;
+    border: 1px dashed #ccc;
+	border-radius: 50px;
+    font-family: Arial Unicode MS,lucida grande,tahoma,verdana,arial,sans-serif;
+    text-align: center;
+	cursor: text;
+}
+
+.font-box-style:hover span.name {
+    background: #024ba0;
+    color: #fff;
+}
+
+.font-box-style p:hover {
+    border: 1px solid #024ba0;
+    font-size: 19px;
+    color: #024ba0;
+	
+}
+
+.button_wrapper{
+    text-align: center;
+}
+
+#load-more {
+    font-size: 20px;
+    padding: 12px 22%;
+    color: #fff;
+    margin: 10px 0 5px;
+    cursor: pointer;
+    background: #024ba0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+span#copied {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    padding: 5px 10px;
+    background: #1ea22e;
+    top: -9px;
+    right: 7px;
+    text-shadow: none;
+    border-radius: 3px;
+    z-index: 9999;
+    opacity:0;
+}
+
+span#copied {
+    opacity: 1;
+    -webkit-transition: opacity 3000ms  ease-out;
+    transition: opacity 3000ms  ease-out;
+}
