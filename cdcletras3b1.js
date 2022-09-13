@@ -61,16 +61,6 @@ function fontgenerator() {
     var finalText = "";
 
 
-	finalText += "<div class='font-box-style'><span class='name'>BOLD SANS</span><p onclick='copyFont(this)'>"+applyCharMap(boldSansCharMap, text) + "</p></div>";
-    finalText += "<div class='font-box-style'><span class='name'>MEDIEVAL</span><p onclick='copyFont(this)'>"+applyCharMap(medievalCharMap, text) + "</p></div>";
-    finalText += "<div class='font-box-style'><span class='name'>CURSIVE</span><p onclick='copyFont(this)'>"+applyCharMap(cursiveCharMap, text) + "</p></div>";
-    finalText += "<div class='font-box-style'><span class='name'>SCRIPTIFY</span><p onclick='copyFont(this)'>"+scriptify(text) + "</p></div>";
-    finalText += "<div class='font-box-style'><span class='name'>DOUBLE STRUCK</span><p onclick='copyFont(this)'>"+applyCharMap(doubleStruckCharMap, text) +"</p></div>";
-    finalText += "<div class='font-box-style'><span class='name'>WIDE</span><p onclick='copyFont(this)'>"+applyCharMap(wideTextCharMap, text) + "</p></div>";
-    finalText += "<div class='font-box-style'><span class='name'>FLIP</span><p onclick='copyFont(this)'>"+luni.tools.flip.encode(text) + "</p></div>";
-    finalText += "<div class='font-box-style'><span class='name'>SUBSCRIPT</span><p onclick='copyFont(this)'>"+applyCharMap(subscriptCharMap, text) + "</p></div>";
-    finalText += "<div id=\"moreFontsCtn\"></div>";
-
     output.innerHTML = finalText.trim();
   }
 
