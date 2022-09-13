@@ -1,42 +1,3 @@
-chrome.storage.sync.get(['value'], function (result) {
-    $(".aryafontsrecentlist").html(result.value)
-});
-chrome.storage.sync.get(['inputText'], function (result) {
-    $("#thenitesharya-cool-text-fonts").val(result.inputText);
-    if (result.inputText){
-    gen(result.inputText);}
-});
-
-$(document).ready(function () {
-
-
-
-    $(document).on("click", ".aryafontslist .aryafonts", function () {
-
-        $(".aryafontsrecentlist").prepend('<div class="aryafonts"><p  class="' + $(this).find("p").attr('class') + '">' + $(this).find("p").text() + '</p></div>');
-
-        if ($('.aryafontsrecentlist .aryafonts').length > 3) {
-            $('.aryafontsrecentlist .aryafonts').last().remove();
-        }
-
-        var theValue = $(".aryafontsrecentlist").html();
-
-        // Save it using the Chrome extension storage API.
-        chrome.storage.sync.set({ 'value': theValue }, function () {
-        });
-
-    });
-    $(document).on("click", ".input-box .clear", function () {
-        $("#thenitesharya-cool-text-fonts").val('');
-        gen("Example");
-
-        chrome.storage.sync.set({ 'inputText': '' }, function () {
-        });
-    });
-
-
-});
-
 // ClipboardJS Settings
 
 
@@ -1262,20 +1223,3 @@ function randommap(texti) {
     return eval(radmap + '("' + texti + '")');
   }
 
-
-
-
-
-
-
-
-$("<style> // Font Generator by The Nitesh Arya: hackersaitand@gmail.com </style>").insertBefore("body");
-
-
-
-$('#thenitesharya-cool-text-fonts').on("input", function (e) {
-  var at = $('#thenitesharya-cool-text-fonts').val();
-  chrome.storage.sync.set({ 'inputText': at }, function () {
-});
-  gen(at);
-});
