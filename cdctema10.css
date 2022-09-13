@@ -1,14 +1,14 @@
 ::-webkit-scrollbar-thumb {
-	background: #405de6
+	background: #03A9F4
 }
 
 ::-webkit-scrollbar-track {
-	background: #f9f9f9
+	background: #b71616
 }
 
 ::-webkit-scrollbar {
-	width: 2px;
-	height: 2px;
+	width: 20px;
+	height: 20px;
 }
 
 *{
@@ -16,7 +16,7 @@
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 }
-body{width:500px;background:#f0f8ff;font-family:arial,sans-serif;margin: 0;padding:0;display:table}
+body{width:500px;background:#0c0e10;font-family:arial,sans-serif;margin: 0;padding:0;display:table}
 .container{width:500px;margin:0 auto}
 .main{text-align: center;padding-top: 65px;width:500px;}
 
@@ -38,7 +38,7 @@ h2{
     border-radius: 5px;
     display: table;
     width: 100%;
-    background: #fff;
+    background: #984646;
     z-index: 999!important;
     box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 21%);
 }
@@ -47,12 +47,12 @@ h2{
     width: 100%;
     height: 50px;
     padding: 1%;
-    background: #ebf1fa;
+    background: #FFEB3B;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     letter-spacing: .02em;
-    line-height: 1.4;
-    font-size: 17px;
+    line-height: 1.9;
+    font-size: 19px;
     outline: 0;
     float: left;
 	text-align: center;
@@ -61,7 +61,7 @@ h2{
 button.clear {
     position: absolute;
     right: 2%;
-    top: 9px;
+    top: 10px;
     font-size: 18px;
     border: none;
     padding: 11px 18px;
@@ -71,16 +71,16 @@ button.clear {
 }
 button.clear:hover {
     background: #f75b00;
-	color: #fff;
+	color: #c0adad;
 	border: none;
 }
 .gen {
-    padding: 1%;
+    padding: 0%;
 }
 .aryafonts{
 	position: relative;
     margin: 0;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     display: block;
     float: left;
     width: 100%;
@@ -88,7 +88,7 @@ button.clear:hover {
 
 .aryafonts p {
 	margin: 0;
-    padding: 8px 0;
+    padding: 12px 0;
     font-size: 22px;
     cursor: pointer;
     white-space: nowrap;
@@ -96,7 +96,7 @@ button.clear:hover {
     text-align: center;
     float: left;
     color: #333;
-    background: #fff;
+    background: #edbaba;
     border: 1px solid #eee;
     border-radius: 10px;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
