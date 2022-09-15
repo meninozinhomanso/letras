@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+	margin: 0;  
+	padding: 0;  
+	border: 0;  
+	font-size: 100%;  
+	font: inherit;  
+	vertical-align: baseline; 
+ }
+ /****** Elad Shechter's RESET *******/
+/*** box sizing border-box for all elements ***/
+*,
+*::before,
+*::after{box-sizing:border-box;}
+a{text-decoration:none; color:inherit; cursor:pointer;}
+button{background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer;}
+figure{margin:0;}
+input::-moz-focus-inner {border:0; padding:0; margin:0;}
+ul, ol, dd{margin:0; padding:0; list-style:none;}
+h1, h2, h3, h4, h5, h6{margin:0; font-size:inherit; font-weight:inherit;}
+p{margin:0;}
+cite {font-style:normal;}
+fieldset{border-width:0; padding:0; margin:0;}
+
+html{ 
+	font-size: 1px;/*for using REM units*/
+	line-height: 1.2; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+ }
+
+body {
+	background: #f5f6fa;
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+	padding: 0;
+	font-size: 16rem;
+	font-weight: 400;
+	line-height: 1.3;
+	color: #222;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #000;
+    overflow-x: auto;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar {
+	width: 2px;
+	height: 5px;
+}
+a{
+	text-decoration: none;
+}
+.top {
+    text-align: center;
+}
+a.link {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    display: block;
+    color: #fff;
+}
+.container {
+	width: 100%;
+}
+
+#header {
+	width: 100%;
+	clear: both;
+	float: left;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	z-index: 9!important;
+	background: #0d53c7;
+	background: linear-gradient(45deg,#405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d);
+	-webkit-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bookmarks a {
+	display: block;
+    text-align: right;
+    padding: 14px 18px 14px 0;
+    color: #673AB7;
+    font-size: 15px;
+    text-transform: uppercase;
+	backface-visibility: hidden;
+	border-radius: 3px;
+	border: 3px solid #8f1d1d00;
+}
+.bookmarks a:hover{
+    background: #a83535;
+	color: #9C27B0;
+	border-color:#FFC107;
+}
+
+
+
+/* main */
+#main {
+    width: 100%;
+    float: left;
+}
+
+.lenny-face-list {
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.lenny-face {
+	display: inline-block;
+	margin: 7px;
+	font-size: 29px;
+	cursor: pointer;
+	background: #FF9800;
+	color: #040809;
+	border: 4px solid #b03007;
+	border-radius: 19px;
+	position: relative;
+}
+.lenny-face-list h2 {
+    border-bottom: 9px solid #00BCD4;
+    padding: 9px 0;
+	margin: 9px 0;
+	font-family: arial,sans-serif;
+	clear: both;
+	font-size: 29px;
+}
+
+.lenny-face div {
+    font-size: 16px;
+	padding: 19px 16px;
+	font-family: arial,sans-serif;
+}
+
+.lenny-face:hover {
+	color: #3a0443;
+	border: 2px solid #00BCD4;
+}
+
+.lenny-face span {
+	display: none;
+}
+.lenny-face button{
+	position: absolute;
+    top: -5px;
+    right: -10px;
+    background: #E91E63;
+    color: #FFEB3B;
+    padding: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+   
+    box-shadow: 0px -3px 5px 0px #9C27B0;
+    z-index: 9999;
+
+}
+p.aryapage {
+	display: none;
+}
+.links {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin: 9px 0;
+    padding-top: 16px;
+}
+.links a {
+    display: inline-block;
+    padding: 9px 10px;
+    font-size: 14px;
+    margin: 3px 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    background: #607D8B;
+    color: #673AB7;
+    border: 2px solid #F44336;
+}
+.links a:hover {
+    opacity: 0.7;
+}
+
+.pagelinks {
+    width: 100%;
+    float: left;
+	margin: 5px 0;
+	color: #3173b7;
+	display: inline-block;
+    padding: 5px 0;
+}
+.single .pagelinks {
+	display: none;
+}
+.pagelinks:hover{
+	text-decoration: underline;
+	color: #03A9F4;
+}
+
+
