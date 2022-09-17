@@ -30,7 +30,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background: #01000100;
+	background: #3d003d;
 	min-width: 400px;
 }
 
@@ -707,8 +707,8 @@ p.copied span {
     width: 100%;
 }
 p.copied .text {
-    background: transparent;
-    color: #fff;
+    background: #3F51B5;
+    color: #510e0e;
     border: none;
     width: 100%;
 }
