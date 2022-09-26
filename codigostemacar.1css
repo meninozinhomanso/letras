@@ -1,0 +1,215 @@
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  margin: auto;
+  width: 400px;
+ 
+}
+
+body {
+  background-color: #e81818;
+  color: #222;
+  font-family: muli, sans-serif;
+  font-size: 16px;
+  border:2px solid blue;
+  text-align:center;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #673AB7;
+  -webkit-user-drag: none;
+}
+
+a:hover {
+  color: #949494;
+}
+
+
+header {position:fixed;top:0;
+  font-family: "muli";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background:#FFC107;
+height:80px;    z-index: 999;
+}
+
+header>a {
+  color: #681010;
+  font-size: 30px;
+  font-family: "muli", roboto;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 70px;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+header>a:hover {
+  color: #3F51B5;
+}
+
+
+
+p {
+  margin: 26px 0;
+  padding: 0;
+  color: #333;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  
+  font-family: muli, sans-serif;
+  color: #111;
+  font-weight: 400;
+  margin: 6px 0;
+}
+
+h1.title {
+  text-align: center;
+  font-family: muli, roboto, sans-serif;
+  font-size: 30px;
+  color: #FF5722;
+  font-weight: 300;
+}
+
+
+.center {
+  text-align: center;
+}
+
+ul {
+  margin: 1em 0 1em 2.5em;
+}
+
+li {
+  margin: 6px 0;
+}
+
+img {
+  -webkit-user-drag: none;
+  display: block;
+  margin: 1em auto;
+  max-width: 70%;
+}
+
+
+.btndiv {
+  margin: 1em 0;
+}
+
+.btndiv a {
+  color: #FFEB3B;
+}
+
+.btndiv a:hover {
+  color: #011f37;
+}
+
+a.btn {
+  background:cadetblue;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 3px 8px;
+}
+
+a.btn:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+
+
+
+
+.form-control.TinyTextG {
+    width: 365px;
+	
+    height: 40px;
+    margin: 15px auto;
+    margin-top: 22px;
+    border: 3px solid #d40008;
+}
+
+
+
+
+.form-control{
+margin: 0;
+resize: none;
+outline: none;
+border-radius: 8px;
+font-size: 15px;
+padding-top: 10px;
+padding-left: 16px;
+background: #e0bdbd;
+border-radius: 5px;
+height:50px;
+color: #666;
+transition: all 0.4s ease;
+border-color: #3f3232;
+}
+
+
+
+
+
+
+
+	
+									
+.TinyTexttext{ background:#bea9a900;
+margin:11px auto;
+padding:2px; 1px;
+box-sizing: border-box;
+margin-bottom: 0px;
+
+}
+
+
+
+.TinyText-fon{border: 1px solid #8a2be2;width:95%; margin:30px auto;height: 2%;background:#fff;font-size: 15px;
+    outline: none;text-align: center;padding: 5px 1px 1px 1px;border-radius: 2px;    margin-bottom: -15px;}
+		
+
+.copybutton{     border-radius: 1px;
+    position: relative;
+   font-size: 10px;
+   height: 4%;
+    border: none;
+      top: 18px;
+   left: 39%;
+   padding: 5px 5px 5px 5px;
+   color: #FFEB3B;
+   background:#8a2be2;}
+
+
+
+
+
+ul {   margin: 0;
+    padding: 0;
+display: flex;}
+
+
+
+
+
+
+
