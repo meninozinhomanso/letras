@@ -1,8 +1,8 @@
 *{box-sizing: border-box;}
 body{
 	text-align:center;
-	background-color:#a3373700;
-	width:800px;
+	background-color:#9b3232;
+	width:px;
 }
 .container{
 	display:none;
@@ -15,20 +15,20 @@ body{
 }
 .navigation a{
 	font-weight:bold;
-	color: #9C27B0;
+	color: #3f87a6;
 	cursor:pointer;
 	font-size:14px;
 	margin: 0 3px;
 }
 a:hover,
 a.active{
-	color:#00BCD4;
+	color:#333;
 }
 
 .changelanguage a{
 	font-size: 16px;
 	height: auto;
-	color: #FF5722;
+	color: #ffda30;
 	line-height: 0.6em;
 }
 h2{
@@ -46,7 +46,7 @@ h2 a{
 	font-weight:normal;
 	text-decoration:none;
 	margin-top:5px;
-	color: #FFC107;
+	color: #3f87a6;
 }
 .emojiarea{clear:both;}
 
@@ -84,7 +84,7 @@ h2 a{
 	background:#efefef;
 }
 .emojicontainer .emojibox:before{
-	background: rgb(168 47 47 / 0%);
+	background: rgba(255,255,255,0.8);
 	position: absolute;
 	top:0;
 	left:0;
@@ -111,8 +111,8 @@ h2 a{
 	width: 40px;
 	height: 16px;
 	z-index: 2;
-	color: #811c1c;
-	border: solid 1px #CDDC39;
+	color: #fff;
+	border: solid 1px #fff;
 	font-size: 14px;
 	text-align: center;
 	padding: 4px 10px;
@@ -127,7 +127,7 @@ h2 a{
 	top: 65px;
 	left: -110px;
 	margin: auto;
-	background: #CDDC39;
+	background: rgba(255,255,255,0.9);
 	border: solid 2px orange;
 	border-radius: 5px;
 	width: 280px;
@@ -236,7 +236,7 @@ button {
     display: none;
     padding: 5px 8px;
     font: normal normal 11px/1.5 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #e3c9c9;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     text-shadow: none;
