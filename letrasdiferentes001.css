@@ -1,0 +1,259 @@
+::-webkit-scrollbar-thumb {
+	background: #03A9F4;
+}
+
+::-webkit-scrollbar-track {
+	background: #ab2525
+}
+
+::-webkit-scrollbar {
+	width:px
+}
+
+
+*,
+body,
+html {
+	box-sizing: border-box
+}
+h1 {
+    text-align: center;
+    color: #E91E63;
+    margin: 0px;
+    font-weight: 100;
+    font-size: 25px;
+}
+body,
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	line-height: 1.5;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background: #673AB7;
+	min-width: 400px;
+}
+
+a {
+	text-decoration: none
+}
+
+input::placeholder {
+	color: #3F51B5;
+	opacity: 1;
+}
+
+.thenitesharya-text{
+	background: #00BCD4;
+}
+
+.thenitesharya-text{
+	padding: 3px;
+    display: table;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 1px 2px 4px 0 rgb(96 25 25 / 21%);
+}
+.thenitesharya-text .container{
+	position: relative;
+}
+.thenitesharya-text .clear {
+	position: absolute;
+    right: 2px;
+    color: #FF5722;
+    font-size: 20px;
+    padding: 11px 20px;
+    line-height: 1.5;
+    background: transparent;
+    border: none;
+    z-index: 99999;
+    border-radius: 3px;
+    cursor: pointer;
+    top: 39px;
+    outline: none;
+}
+
+.thenitesharya-text .clear:hover {
+	color: #f2a900;
+}
+
+.thenitesharya-text p {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #777;
+	padding: 0px;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.thenitesharya-text.fixedtop {
+    position: fixed;
+    top: 0;
+}
+
+.settings {
+	float: right;
+}
+
+
+
+.aryafontslist,
+.aryafontsrecentlist {
+	display: block;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin-top: 85px;
+  position: relative;
+  border-radius: 3px;
+  background: #471e1e;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.aryafonts {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  border-bottom:1px solid #f1f1f1;
+}
+
+.aryafonts span {
+    background: #f2a900;
+    color: #000;
+    position: absolute;
+    padding: 2px 8px;
+    top: 2px;
+    left: 2px;
+    font-size: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    display: none;
+}
+
+.aryafonts p {
+	margin: 0;
+  padding: 11px 0;
+    font-size: 20px;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+	float: right;
+	background: #03A9F4;
+	cursor: pointer;
+    color: #000;
+    border-radius: 3px;
+    font-family: Arial Unicode MS,lucida grande,tahoma,verdana,arial,sans-serif;
+}
+
+.aryafonts:hover p {
+    color: #000;
+    background: #fff0cf;
+    text-shadow: 1px 1px 1px #00000045;
+    border: 1px dashed #000;
+    border-radius: 0px 20px 20px 0px;
+}
+.aryafonts:hover span{
+	display: block;
+}
+
+p.loadmore {
+	clear: both;
+    margin: 20px 0 50px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+#thenitesharya-text {
+  width: 100%;
+  padding: 0.5em 1em;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  margin-bottom: 0;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  border-radius: 3px;
+    background: #f5f6fa;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(200,200,200,.7);
+    -moz-box-shadow: inset 1px 1px 3px rgba(200,200,200,.7);
+    box-shadow: inset 1px 1px 3px rgba(200,200,200,.7);
+}
+
+
+#load-more {
+    font-size: 20px;
+    padding: 10px 35px;
+    border: 2px solid #f2a900;
+    color: #f2a900;
+    margin: 10px 0 5px 0;
+    cursor: pointer;
+    background: #fff;
+    text-align: center;
+    outline: none;
+    border-radius: 3px;
+}
+
+#load-more:hover {
+    background: #f2a900;
+    color: white;
+    border: 2px solid #f2a900;
+}
+a#footer-credit {
+    text-align: center;
+    display: block;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #ffffff80;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 12px;
+}
+a#footer-credit:hover {
+	color: #fff;
+}
+p.copied {
+	position: fixed;
+	width: 260px;
+    right: 0;
+	bottom: 25%;
+    background: #e60a0a;
+    color: #fff;
+    padding: 5px 10px;
+	border-radius: 3px 0 0 3px;
+	z-index: 99999;
+	box-shadow: 0px 0px 8px 0 rgba(0,0,0,.41);
+}
+p.copied span {
+    float: left;
+    width: 100%;
+}
+p.copied .text {
+    background: transparent;
+    color: #673AB7;
+    border: none;
+    width: 100%;
+}
+
+
+
