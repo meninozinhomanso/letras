@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 body{
 	text-align:center;
-	background-color:#9b3232;
+	background-color:;
 	width:px;
 }
 .container{
@@ -11,14 +11,14 @@ body{
 	display:block;
 }
 .navigation{
-	margin-bottom:10px;
+	margin-bottom:19x;
 }
 .navigation a{
 	font-weight:bold;
 	color: #3f87a6;
 	cursor:pointer;
-	font-size:14px;
-	margin: 0 3px;
+	font-size:19px;
+	margin: 0 9px;
 }
 a:hover,
 a.active{
@@ -26,7 +26,7 @@ a.active{
 }
 
 .changelanguage a{
-	font-size: 16px;
+	font-size: 19px;
 	height: auto;
 	color: #ffda30;
 	line-height: 0.6em;
@@ -35,7 +35,7 @@ h2{
 	color:#ac54c0;
 	margin-bottom:0;
 	float:left;
-	font-size:20px;
+	font-size:29px;
 	width:100%;
 	margin:auto;
 	text-align:left;
@@ -45,7 +45,7 @@ h2 a{
 	font-size:16px;
 	font-weight:normal;
 	text-decoration:none;
-	margin-top:5px;
+	margin-top:9px;
 	color: #3f87a6;
 }
 .emojiarea{clear:both;}
@@ -54,34 +54,34 @@ h2 a{
 	width:90%;
 	margin:auto;
 	display:inline-block;
-	margin-bottom:25px;
+	margin-bottom:2px;
 }
 .emojicontainer{
 	display:inline-block;
 	margin:auto;
-	padding:2px 3px 10px 3px;
-	border:solid 3px #ccc;
-	border-radius:10px;
+	padding:19px 6px 19px 19px;
+	border:solid 3px #FF5722;
+	border-radius:21px;
 }
 .emojicontainer .emojibox{
 	float:left;
 	cursor:pointer;
 	position:relative;
-	border:solid 2px transparent;
+	border:solid 2px #4CAF50;
 }
 .emojicontainer .emojibox .emoji{
 	font-family: initial;
-	font-size: 1.5em;
-	padding:1px;
+	font-size: 2.4em;
+	padding:2px;
 }
 .emojicontainer .emojibox .emoji.smaller{
-	font-size: 3em;
+	font-size: 4em;
 }
 
 .emojicontainer .emojibox.active{
-	border:solid 2px #f60706;
-	border-radius:5px;
-	background:#efefef;
+	border:solid 8px #f60706;
+	border-radius:8px;
+	background:#FFEB3B;
 }
 .emojicontainer .emojibox:before{
 	background: rgba(255,255,255,0.8);
@@ -109,7 +109,7 @@ h2 a{
 	top: 0;
 	right: 0%;
 	width: 40px;
-	height: 16px;
+	height: 19px;
 	z-index: 2;
 	color: #fff;
 	border: solid 1px #fff;
@@ -149,22 +149,22 @@ h2 a{
 	font-weight: bold;
 	width: 100%;
 	display: inline-block;
-	margin-bottom: 10px;
+	margin-bottom: 19px;
 	color: #ac54c0;
 }
 input {
     display: block;
     width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
+    padding: .975rem .65rem;
+    font-size: 9rem;
+    line-height: 2.5;
     color: #495057;
-    background-color: #fff;
+    background-color: #FFEB3B;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-	margin-bottom:5px;
+    border: 9px solid #4788ca;
+    border-radius: 30rem;
+    transition: border-color .15s cubic-bezier(0.45, 0.05, 0.55, 0.95),box-shadow .15s ease-in-out;
+	margin-bottom:9px;
 }
 button {
     display: inline-block;
@@ -176,25 +176,25 @@ button {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border: 1px solid transparent;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: transparent;
-        border-left-color: transparent;
+    border: 1px solid #c42020;
+        border-top-color: #FFC107;
+        border-right-color: #d9bebe;
+        border-bottom-color: #801515;
+        border-left-color: #2196F3;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: .25rem;
-	background-color:#3f87a6;
+    border-radius: .29rem;
+	background-color:#E91E63;
 	margin:auto;
-	color:#fff;
+	color:#CDDC39;
 	cursor:pointer;
 	width:120px;
 	position:relative;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .btn:not(:disabled):not(.disabled):active, .show > .btn.dropdown-toggle {
-    color: #fff;
+    color: #2196F3;
     background-color: #0062cc;
     border-color: #005cbf;
 }
@@ -204,9 +204,9 @@ button {
 	float:left;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #a61919;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid #FFF8E1;
     border-radius: .25rem;
 	display:none;
 }
@@ -214,7 +214,7 @@ button {
     padding: 4px 20px;
     margin-bottom: 0;
     background-color: rgba(0,0,0,.03);
-    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgb(187 40 40);
 }
 .showdesc {
     -ms-flex: 1 1 auto;
@@ -236,7 +236,7 @@ button {
     display: none;
     padding: 5px 8px;
     font: normal normal 11px/1.5 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #fff;
+    color: #FF9800;
     text-align: center;
     text-decoration: none;
     text-shadow: none;
@@ -260,7 +260,7 @@ button {
     color: rgba(0, 0, 0, .8);
     pointer-events: none;
     content: "";
-    border: 5px solid transparent
+    border: 5px solid #a94040
 }
 
 .tooltipped:hover:before,
@@ -278,7 +278,7 @@ button {
 .tooltipped-sw:after {
     top: 100%;
     right: 50%;
-    margin-top: 5px
+    margin-top: 9px
 }
 
 .tooltipped-s:before,
@@ -288,7 +288,7 @@ button {
     right: 50%;
     bottom: -5px;
     margin-right: -5px;
-    border-bottom-color: rgba(0, 0, 0, .8)
+    border-bottom-color: rgb(175 23 23 / 80%)
 }
 
 .tooltipped-se:after {
@@ -302,6 +302,10 @@ button {
     -ms-transform: translateX(50%);
     transform: translateX(50%)
 }
+
+
+
+
 
 
 
