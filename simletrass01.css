@@ -153,8 +153,6 @@ h2 a{
 	color: #ac54c0;
 }
 input {
-    display: block;
-    width: 100%;
     padding: .975rem .65rem;
     font-size: 9rem;
     line-height: 2.5;
