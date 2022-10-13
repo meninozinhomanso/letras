@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 body{
 	text-align:center;
-	background-color:#310505;
+	background-color:;
 	width:800px;
 }
 .container{
@@ -111,11 +111,11 @@ h2 a{
 	width: 40px;
 	height: 16px;
 	z-index: 2;
-	color: #fff;
-	border: solid 1px #fff;
+	color: #411010;
+	border: solid 1px #ca1717;
 	font-size: 14px;
 	text-align: center;
-	padding: 4px 10px;
+	padding: 5px 10px;
 	border-radius: 10px;
 }
 .emojibox.show:after{
@@ -127,7 +127,7 @@ h2 a{
 	top: 65px;
 	left: -110px;
 	margin: auto;
-	background: rgba(255,255,255,0.9);
+	background: rgb(125 42 42 / 90%);
 	border: solid 2px orange;
 	border-radius: 5px;
 	width: 280px;
@@ -157,14 +157,14 @@ input {
     width: 100%;
     padding: .375rem .75rem;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 2.5;
     color: #495057;
-    background-color: #fff;
+    background-color: #f1f0ed;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 3px solid #124170;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-	margin-bottom:5px;
+	margin-bottom:6px;
 }
 button {
     display: inline-block;
@@ -185,9 +185,9 @@ button {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-	background-color:#3f87a6;
+	background-color:#FFC107;
 	margin:auto;
-	color:#fff;
+	color:#0e0d0d;
 	cursor:pointer;
 	width:120px;
 	position:relative;
