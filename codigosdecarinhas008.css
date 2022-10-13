@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 body{
 	text-align:center;
-	background-color:#c76b6b00;
+	background-color:#310505;
 	width:800px;
 }
 .container{
@@ -81,10 +81,10 @@ h2 a{
 .emojicontainer .emojibox.active{
 	border:solid 2px #f60706;
 	border-radius:5px;
-	background:#efefef;
+	background:#a54949;
 }
 .emojicontainer .emojibox:before{
-	background: rgba(255,255,255,0.8);
+	background: rgb(120 68 68 / 80%);
 	position: absolute;
 	top:0;
 	left:0;
