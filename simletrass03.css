@@ -51,16 +51,16 @@ h2 a{
 .emojiarea{clear:both;}
 
 .content{
-	width:90%;
+	width:100%;
 	margin:auto;
 	display:inline-block;
-	margin-bottom:2px;
+	margin-bottom:1px;
 }
 .emojicontainer{
 	display:inline-block;
 	margin:auto;
-	padding:15px 4px 13px 10px;
-	border:solid 3px #2196F3;
+	padding:15px 5px 12px 10px;
+	border:solid 4px #2196F3;
 	border-radius:29px;
 }
 .emojicontainer .emojibox{
@@ -302,13 +302,6 @@ button {
     -ms-transform: translateX(50%);
     transform: translateX(50%)
 }
-
-
-
-
-
-
-
 
 
 
