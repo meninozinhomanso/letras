@@ -15,27 +15,27 @@ body{
 }
 .navigation a{
 	font-weight:bold;
-	color: #3f87a6;
+	color: #9E9E9E;
 	cursor:pointer;
-	font-size:19px;
-	margin: 0 9px;
+	font-size:21px;
+	margin: 0 4px;
 }
 a:hover,
 a.active{
-	color:#333;
+	color:#b35656;
 }
 
 .changelanguage a{
 	font-size: 19px;
 	height: auto;
-	color: #ffda30;
+	color: #8BC34A;
 	line-height: 0.6em;
 }
 h2{
 	color:#ac54c0;
 	margin-bottom:0;
 	float:left;
-	font-size:29px;
+	font-size:20px;
 	width:100%;
 	margin:auto;
 	text-align:left;
@@ -46,7 +46,7 @@ h2 a{
 	font-weight:normal;
 	text-decoration:none;
 	margin-top:9px;
-	color: #3f87a6;
+	color: #00BCD4;
 }
 .emojiarea{clear:both;}
 
@@ -59,32 +59,32 @@ h2 a{
 .emojicontainer{
 	display:inline-block;
 	margin:auto;
-	padding:19px 6px 19px 19px;
-	border:solid 3px #FF5722;
-	border-radius:21px;
+	padding:15px 4px 13px 10px;
+	border:solid 3px #2196F3;
+	border-radius:29px;
 }
 .emojicontainer .emojibox{
 	float:left;
 	cursor:pointer;
 	position:relative;
-	border:solid 2px #4CAF50;
+	border:solid 1px #ededed;
 }
 .emojicontainer .emojibox .emoji{
 	font-family: initial;
-	font-size: 2.4em;
-	padding:2px;
+	font-size: 1.4em;
+	padding:1px;
 }
 .emojicontainer .emojibox .emoji.smaller{
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .emojicontainer .emojibox.active{
-	border:solid 8px #f60706;
-	border-radius:8px;
-	background:#FFEB3B;
+	border:solid 9px #2196F3;
+	border-radius:9px;
+	background:#673AB7;
 }
 .emojicontainer .emojibox:before{
-	background: rgba(255,255,255,0.8);
+	background: rgb(55 40 40 / 80%);
 	position: absolute;
 	top:0;
 	left:0;
@@ -111,8 +111,8 @@ h2 a{
 	width: 40px;
 	height: 19px;
 	z-index: 2;
-	color: #fff;
-	border: solid 1px #fff;
+	color: #b99494;
+	border: solid 1px #967272;
 	font-size: 14px;
 	text-align: center;
 	padding: 4px 10px;
@@ -157,9 +157,9 @@ input {
     width: 100%;
     padding: .375rem .75rem;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 2.5;
     color: #495057;
-    background-color: #ffda30;
+    background-color: #edeadd;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
@@ -177,17 +177,17 @@ button {
     -ms-user-select: none;
     user-select: none;
     border: 1px solid #c42020;
-        border-top-color: #FFC107;
+        border-top-color: #cbbd94;
         border-right-color: #d9bebe;
         border-bottom-color: #801515;
-        border-left-color: #2196F3;
+        border-left-color: #3d6687;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .29rem;
-	background-color:#E91E63;
+	background-color:#CDDC39;
 	margin:auto;
-	color:#CDDC39;
+	color:#131411;
 	cursor:pointer;
 	width:120px;
 	position:relative;
@@ -195,8 +195,8 @@ button {
 }
 .btn:not(:disabled):not(.disabled):active, .show > .btn.dropdown-toggle {
     color: #2196F3;
-    background-color: #0062cc;
-    border-color: #005cbf;
+    background-color: #FFEB3B;
+    border-color: #405061;
 }
 .showEmojiBox {
     position: relative;
@@ -302,6 +302,13 @@ button {
     -ms-transform: translateX(50%);
     transform: translateX(50%)
 }
+
+
+
+
+
+
+
 
 
 
