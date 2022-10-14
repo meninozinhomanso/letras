@@ -153,16 +153,18 @@ h2 a{
 	color: #ac54c0;
 }
 input {
-    padding: .975rem .65rem;
-    font-size: 9rem;
-    line-height: 2.5;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
     color: #495057;
-    background-color: #FFEB3B;
+    background-color: #ffda30;
     background-clip: padding-box;
-    border: 9px solid #4788ca;
-    border-radius: 30rem;
-    transition: border-color .15s cubic-bezier(0.45, 0.05, 0.55, 0.95),box-shadow .15s ease-in-out;
-	margin-bottom:9px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-bottom:5px;
 }
 button {
     display: inline-block;
