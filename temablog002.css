@@ -67,7 +67,7 @@ h2 a{
 	float:left;
 	cursor:pointer;
 	position:relative;
-	border:solid 2px #009688;
+	border:solid 3px #FF9800;
 }
 .emojicontainer .emojibox .emoji{
 	font-family: initial;
@@ -81,7 +81,7 @@ h2 a{
 .emojicontainer .emojibox.active{
 	border:solid 8px #2196F3;
 	border-radius:9px;
-	background:#673AB7;
+	background:#FFEB3B;
 }
 .emojicontainer .emojibox:before{
 	background: rgb(55 40 40 / 80%);
@@ -153,7 +153,7 @@ h2 a{
 	color: #ac54c0;
 }
 input {
-    display: block;
+    display: 
     width: 100%;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -182,7 +182,7 @@ button {
         border-bottom-color: #801515;
         border-left-color: #3d6687;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.5;
     border-radius: .29rem;
 	background-color:#FF9800;
