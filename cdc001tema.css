@@ -1,0 +1,304 @@
+*{box-sizing: border-box;}
+body{
+	text-align:;
+	background-color:;
+	width:px;
+}
+.container{
+	display:none;
+}
+#es{
+	display:block;
+}
+.navigation{
+	margin-bottom:19x;
+}
+.navigation a{
+	font-weight:bold;
+	color: #643131;
+	cursor:pointer;
+	font-size:21px;
+	margin: 0 4px;
+}
+a:hover,
+a.active{
+	color:#FF5722;
+}
+
+.changelanguage a{
+	font-size: 19px;
+	height: auto;
+	color: #8BC34A;
+	line-height: 0.6em;
+}
+h2{
+	color:#00BCD4;
+	margin-bottom:0;
+	float:left;
+	font-size:20px;
+	width:100%;
+	margin:auto;
+	text-align:left;
+}
+h2 a{ 
+	float:right;
+	font-size:16px;
+	font-weight:normal;
+	text-decoration:none;
+	margin-top:9px;
+	color: #00BCD4;
+}
+.emojiarea{clear:both;}
+
+.content{
+	width:100%;
+	margin:auto;
+	display:inline-block;
+	margin-bottom:1px;
+}
+.emojicontainer{
+	display:inline-block;
+	margin:auto;
+	padding:15px 8px 17px 20px;
+	border:solid 6px #E91E63;
+	border-radius:29px;
+}
+.emojicontainer .emojibox{
+	float:left;
+	cursor:pointer;
+	position:relative;
+	border:solid 3px #FF9800;
+}
+.emojicontainer .emojibox .emoji{
+	font-family: initial;
+	font-size: 2.4em;
+	padding:2px;
+}
+.emojicontainer .emojibox .emoji.smaller{
+	font-size: 3em;
+}
+
+.emojicontainer .emojibox.active{
+	border:solid 8px #2196F3;
+	border-radius:9px;
+	background:#FFEB3B;
+}
+.emojicontainer .emojibox:before{
+	background: rgb(55 40 40 / 80%);
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:2;
+}
+.emojicontainer .emojibox .emoji:focus{background:none;}
+.emojicontainer .emojibox .emoji::-moz-selection { 
+   background:transparent; 
+   text-shadow: none; 
+}
+.emojicontainer .emojibox .emoji::selection { 
+   background:transparent; 
+   text-shadow: none; 
+}
+.emojibox:after{
+	display:none;
+  content: "copied";
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 40px;
+	height: 19px;
+	z-index: 2;
+	color: #b99494;
+	border: solid 1px #967272;
+	font-size: 14px;
+	text-align: center;
+	padding: 4px 10px;
+	border-radius: 10px;
+}
+.emojibox.show:after{
+	display:block;
+}
+.emojicontainer .emojibox .desc{	display:none;}
+.emojicontainer .emojibox .desc{
+	position: absolute;
+	top: 65px;
+	left: -110px;
+	margin: auto;
+	background: rgb(216 197 197 / 90%);
+	border: solid 2px orange;
+	border-radius: 5px;
+	width: 280px;
+	z-index: 1;
+	font-size:14px;
+	padding:10px 8px;
+}
+.emojicontainer .emojibox .desc:after{
+	position:absolute;
+	top:0;
+	right:0;
+	content:'X';
+	color:#f60706;
+	font-family:inherit;
+	font-weight:bold;
+}
+.emojicontainer .emojibox .desc .title{
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 19px;
+	color: #ac54c0;
+}
+input {
+    display: 
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 2.5;
+    color: #495057;
+    background-color: #edece7;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-bottom:5px;
+}
+button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #c42020;
+        border-top-color: #cbbd94;
+        border-right-color: #d9bebe;
+        border-bottom-color: #801515;
+        border-left-color: #3d6687;
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: .29rem;
+	background-color:#FF9800;
+	margin:auto;
+	color:#131411;
+	cursor:pointer;
+	width:120px;
+	position:relative;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn:not(:disabled):not(.disabled):active, .show > .btn.dropdown-toggle {
+    color: #2196F3;
+    background-color: #FFEB3B;
+    border-color: #405061;
+}
+.showEmojiBox {
+    position: relative;
+	width:40%;
+	float:left;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #a61919;
+    background-clip: border-box;
+    border: 1px solid #ddd6bc;
+    border-radius: .25rem;
+	display:none;
+}
+.showtitle {
+    padding: 4px 20px;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgb(187 40 40);
+}
+.showdesc {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px 10px;
+}
+.inputbox{
+	float:right;
+	width:45%;
+	text-align:left;
+}
+.tooltipped {
+    position: relative
+}
+
+.tooltipped:after {
+    position: absolute;
+    z-index: 1000000;
+    display: none;
+    padding: 5px 8px;
+    font: normal normal 11px/1.5 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #FF9800;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: break-word;
+    white-space: pre;
+    pointer-events: none;
+    content: attr(aria-label);
+    background: rgba(0, 0, 0, .8);
+    border-radius: 3px;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+
+.tooltipped:before {
+    position: absolute;
+    z-index: 1000001;
+    display: none;
+    width: 0;
+    height: 0;
+    color: rgba(0, 0, 0, .8);
+    pointer-events: none;
+    content: "";
+    border: 5px solid #a94040
+}
+
+.tooltipped:hover:before,
+.tooltipped:hover:after,
+.tooltipped:active:before,
+.tooltipped:active:after,
+.tooltipped:focus:before,
+.tooltipped:focus:after {
+    display: inline-block;
+    text-decoration: none
+}
+
+.tooltipped-s:after,
+.tooltipped-se:after,
+.tooltipped-sw:after {
+    top: 100%;
+    right: 50%;
+    margin-top: 9px
+}
+
+.tooltipped-s:before,
+.tooltipped-se:before,
+.tooltipped-sw:before {
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    margin-right: -5px;
+    border-bottom-color: rgb(175 23 23 / 80%)
+}
+
+.tooltipped-se:after {
+    right: auto;
+    left: 50%;
+    margin-left: -15px
+}
+
+.tooltipped-s:after {
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%)
+}
