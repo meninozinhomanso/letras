@@ -1,5 +1,5 @@
 :root {
-  --primary-color: linear-gradient(to right, #ae2068, #4b6cb7);
+  --primary-color: linear-gradient(to right, #ae2068, #03A9F4);
   --font-default: system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
     helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
     segoe ui emoji, segoe ui symbol, noto color emoji;
@@ -55,31 +55,31 @@ p {
 }
 .aryafonts {
   position: relative;
-  background: #cbd10b;
+  background: #ecf303;
   margin: 0;
   display: block;
   width: 100%;
-  border: 1px solid #b00f0f;
+  border: 3px solid #db2424;
   padding: 20px 12px;
-  margin: 15px 0;
-  border-radius: 4px;
+  margin: 19px 0;
+  border-radius: 6px;
   cursor: pointer;
   transition: 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .aryafonts:hover {
-  border-color: #bd4343;
+  border-color: #FF5722;
   transform: scale(1.01);
-  background: #e0ddd2;
+  background: #03A9F4;
 }
 .aryafonts span {
-  color: #959fb1;
+  color: #FFEB3B;
   font-weight: 600;
   position: absolute;
   padding: 0 5px;
   letter-spacing: 1px;
   left: 5px;
-  bottom: 2px;
-  font-size: 14px;
+  bottom: 3px;
+  font-size: 5px;
   font-variant-caps: all-small-caps;
   display: block;
 }
@@ -90,7 +90,7 @@ p {
   display: inline-block;
 }
 .aryafonts:hover p {
-  color: #141518;
+  color: #141310;
 }
 
 .copied {
@@ -100,7 +100,7 @@ p {
   right: 0;
   top: 15%;
   background: #150b14;
-  color: #beadad;
+  color: #e5dcdc;
   padding: 5px 10px;
   border-radius: 3px 0 0 3px;
   z-index: 99999;
@@ -117,7 +117,7 @@ p {
   width: 100%;
   font-variant-caps: all-small-caps;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 .copied .text {
   font-family: var(--font-default);
@@ -142,7 +142,7 @@ header {
   top: 0;
   z-index: 1000;
   font-family: var(--font-default);
-  color: #cd0d0d;
+  color: #FF5722;
   display: flex;
   align-items: center;
   text-align: center;
@@ -178,7 +178,7 @@ h5,
 h6 {
   font-family: var(--font-default);
   text-align: center;
-  color: #404040;
+  color: #0d090b;
   font-weight: 300;
   margin: 10px 0;
 }
@@ -195,21 +195,21 @@ h3 {
   font-weight: 300;
 }
 #thenitesharya-text {
-  color: #333;
+  color: #060505;
   resize: none;
   min-height: 86px;
   height: 85px;
   border: none;
-  border-top: 4px solid #c91010;
+  border-top: 6px solid #03A9F4;
   outline: 0;
   width: 100%;
-  line-height: 64px;
+  line-height: 54px;
   padding: 10px;
-  font-size: 1em;
+  font-size: 2em;
   text-align: center;
   font-family: var(--font-default);
   letter-spacing: 1px;
-  border-bottom: 1px solid #cebfbf;
+  border-bottom: 3px solid #FF5722;
 }
 .thenitesharya-text {
   z-index: 99;
@@ -222,13 +222,13 @@ h3 {
 }
 .thenitesharya-text .clear {
   position: absolute;
-  right: 0;
+  right: 1;
   width: max-content;
-  color: #de0707;
-  font-size: 20px;
-  background: 0 0;
+  color: #2196F3;
+  font-size: 30px;
+  background: 5 0;
   line-height: 85px;
-  padding: 0 10px;
+  padding: 1 10px;
   border: none;
   z-index: 99;
   cursor: pointer;
@@ -258,7 +258,7 @@ h3 {
   font-variant-caps: all-small-caps;
   font-size: 20px;
   letter-spacing: 2px;
-  background: #ff4242;
+  background: #FF5722;
   border: 2px solid transparent;
   color: #522659;
   border-radius: 2px;
