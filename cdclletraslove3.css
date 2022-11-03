@@ -100,7 +100,7 @@ p {
   right: 0;
   top: 15%;
   background: #150b14;
-  color: #e5dcdc;
+  color: #d3c8c8;
   padding: 5px 10px;
   border-radius: 3px 0 0 3px;
   z-index: 99999;
@@ -186,7 +186,7 @@ h2 {
   text-transform: uppercase;
   font-size: calc(1vw + 19px);
   font-weight: 100;
-  color: #12a0e0;
+  color: #18b0f4;
 }
 h3 {
   letter-spacing: 1px;
@@ -200,7 +200,7 @@ h3 {
   min-height: 86px;
   height: 85px;
   border: none;
-  border-top: 6px solid #03A9F4;
+  border-top: 19px solid #FF5722;
   outline: 0;
   width: 100%;
   line-height: 54px;
@@ -209,13 +209,13 @@ h3 {
   text-align: center;
   font-family: var(--font-default);
   letter-spacing: 1px;
-  border-bottom: 3px solid #FF5722;
+  border-bottom: 3px solid #de4a1c;
 }
 .thenitesharya-text {
   z-index: 99;
   width: 100%;
   position: fixed;
-  bottom: -10px;
+  bottom: -1px;
   left: unset;
   top: unset;
   right: unset;
@@ -224,11 +224,11 @@ h3 {
   position: absolute;
   right: 1;
   width: max-content;
-  color: #2196F3;
+  color: #0973c7;
   font-size: 30px;
-  background: 5 0;
+  background: 2 0;
   line-height: 85px;
-  padding: 1 10px;
+  padding: 2 10px;
   border: none;
   z-index: 99;
   cursor: pointer;
