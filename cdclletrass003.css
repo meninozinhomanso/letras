@@ -1,13 +1,10 @@
 :root {
-  --primary-color: linear-gradient(to right, #ae2068, #03A9F4);
-  --font-default: system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
-    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
-    segoe ui emoji, segoe ui symbol, noto color emoji;
+
 }
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: ;
   width: px;
   max-width: px;
 }
