@@ -1,12 +1,15 @@
 :root {
-
+  --primary-color: linear-gradient(to right, #204fae, #4b6cb7);
+  --font-default: system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji;
 }
 * {
   margin: 0;
   padding: 0;
-  box-sizing: ;
-  width: px;
-  max-width: px;
+  box-sizing: border-box;
+  width: 1150px;
+  max-width: 650px;
 }
 ::-webkit-scrollbar {
   width: 16px;
