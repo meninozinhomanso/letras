@@ -22,11 +22,11 @@ body {
   background: #;
   font-family: var(--font-default);
   font-size: 17px;
-  font-weight: 400;
+  font-weight: ;
   line-height: 1.6;
   border-radius: 10px;
   overflow-x: hidden;
-  color: #0c2eb9;
+  color: #FFC107;
   overflow-wrap: break-word;
   word-break: break-word;
   word-wrap: break-word;
@@ -130,7 +130,7 @@ p {
 
 header {
   max-width: 100%;
-  text-align: center;
+  text-align: ;
   padding-top: 60px;
   overflow: hidden;
   z-index: 99;
@@ -184,9 +184,9 @@ h6 {
 }
 h2 {
   text-transform: uppercase;
-  font-size: calc(1vw + 20px);
-  font-weight: 400;
-  color: #555;
+  font-size: calc(1vw + 19px);
+  font-weight: 100;
+  color: #12a0e0;
 }
 h3 {
   letter-spacing: 1px;
