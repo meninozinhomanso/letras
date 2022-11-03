@@ -8,8 +8,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 0px;
-  max-width: 0px;
+  width: px;
+  max-width: px;
 }
 ::-webkit-scrollbar {
   width: 16px;
