@@ -69,6 +69,10 @@ function fontgenerator() {
     finalText += "<div class='font-box-style'><span class='name'>WIDE</span><p onclick='copyFont(this)'>"+applyCharMap(wideTextCharMap, text) + "</p></div>";
     finalText += "<div class='font-box-style'><span class='name'>FLIP</span><p onclick='copyFont(this)'>"+luni.tools.flip.encode(text) + "</p></div>";
     finalText += "<div class='font-box-style'><span class='name'>SUBSCRIPT</span><p onclick='copyFont(this)'>"+applyCharMap(subscriptCharMap, text) + "</p></div>";
+    finalText += "<div class='font-box-style'><span class='name'>SUBSCRIPT</span><p onclick='copyFont(this)'>"+applyCharMap(utureAlienCharMap, text) + "</p></div>";
+    finalText += "<div class='font-box-style'><span class='name'>SUBSCRIPT</span><p onclick='copyFont(this)'>"+applyCharMap(squiggle6CharMap, text) + "</p></div>";
+    finalText += "<div class='font-box-style'><span class='name'>SUBSCRIPT</span><p onclick='copyFont(this)'>"+applyCharMap(asianStyle2CharMap, text) + "</p></div>";
+    finalText += "<div class='font-box-style'><span class='name'>SUBSCRIPT</span><p onclick='copyFont(this)'>"+applyCharMap(squaresCharMap, text) + "</p></div>";
     finalText += "<div id=\"moreFontsCtn\"></div>";
 
     output.innerHTML = finalText.trim();
