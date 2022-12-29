@@ -51,7 +51,7 @@ function fontgenerator() {
 
 
   function generate() {
-    var text = (input.value.trim() == "") ? "Fancy Text" : input.value.trim() ;
+    var text = (input.value.trim() == "") ? "Codigos Das Carinhas" : input.value.trim() ;
     
     if (text === "") {
       output.innerHTML = "";
