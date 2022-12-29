@@ -67,12 +67,13 @@ function fontgenerator() {
 	finalText += "<div class='font-box-style'><span class='name'>Bscss</span><p onclick='copyFont(this)'>"+applyCharMap(futureAlienCharMap, text) + "</p></div>";
 	finalText += "<div class='font-box-style'><span class='name'>Bssss</span><p onclick='copyFont(this)'>"+applyCharMap(squiggle4CharMap, text) + "</p></div>";  
 	finalText += "<div class='font-box-style'><span class='name'>Bsdss</span><p onclick='copyFont(this)'>"+applyCharMap(neonCharMap, text) + "</p></div>";
+	finalText += "<div class='font-box-style'><span class='name'>Bsdss</span><p onclick='copyFont(this)'>"+applyCharMap(squiggle3CharMap, text) + "</p></div>";
 	finalText += "<div class='font-box-style'><span class='name'>Bscss</span><p onclick='copyFont(this)'>"+applyCharMap(bentTextCharMap, text) + "</p></div>";  
 	finalText += "<div class='font-box-style'><span class='name'>Basss</span><p onclick='copyFont(this)'>"+applyCharMap(upperAnglesCharMap, text) + "</p></div>";
 	finalText += "<div class='font-box-style'><span class='name'>Bscdss</span><p onclick='copyFont(this)'>"+applyCharMap(superscriptCharMap, text) + "</p></div>";  
 	finalText += "<div class='font-box-style'><span class='name'>Bsdsss</span><p onclick='copyFont(this)'>"+applyCharMap(squiggleCharMap, text) + "</p></div>";
 	finalText += "<div class='font-box-style'><span class='name'>Bssdsss</span><p onclick='copyFont(this)'>"+applyCharMap(squaresCharMap, text) + "</p></div>";  
-	finalText += "<div class='font-box-style'><span class='name'>Bsdqqss</span><p onclick='copyFont(this)'>"+applyCharMap(squaresCharMap, text) + "</p></div>";  
+	finalText += "<div class='font-box-style'><span class='name'>Bsdqqss</span><p onclick='copyFont(this)'>"+applyCharMap(asianStyle2CharMap, text) + "</p></div>";  
 	finalText += "<div class='font-box-style'><span class='name'>Bsfdgess</span><p onclick='copyFont(this)'>"+applyCharMap(invertedSquaresCharMap, text) + "</p></div>";  
     finalText += "<div class='font-box-style'><span class='name'>MEDIEVAL</span><p onclick='copyFont(this)'>"+applyCharMap(medievalCharMap, text) + "</p></div>";
     finalText += "<div class='font-box-style'><span class='name'>CURSIVE</span><p onclick='copyFont(this)'>"+applyCharMap(cursiveCharMap, text) + "</p></div>";
