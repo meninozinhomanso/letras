@@ -1,0 +1,359 @@
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: raleway, sans-serif;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #07090c;
+        min-width: 760px;
+    }
+
+    h1,
+    h2 {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 10px 0 0 10px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    hr {
+        height: 1px;
+    }
+
+    a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    header {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 760px;
+        background: #131921;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header a {
+        font-size: 20px;
+    }
+
+    header a.selected,
+    header a:hover {
+        color: #ff9900;
+    }
+
+    section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 760px;
+        background: #232f3e;
+        text-align: center;
+        border-radius: 0 0 5px 5px;
+        margin-bottom: 10px;
+    }
+
+    #inputGroup {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        margin: 10px 10px 15px 10px;
+        z-index: 2;
+    }
+
+    input[type=text] {
+        padding: 5px 10px;
+        font-size: 22px;
+        border: 0;
+        border-radius: 5px 5px 0 0;
+        outline: 0;
+        color: black;
+        width: 100%;
+        line-height: 36px;
+
+    }
+
+    #inputGroup .button {
+        padding: 5px 0;
+        width: 33.3%;
+        border: 1px solid #f2f2f2;
+        font-weight: bold;
+        cursor: pointer;
+        background: #232f3e;
+        text-transform: uppercase;
+        transition: all 0.5s;
+    }
+
+    #inputGroup .button:hover {
+        background: #131921;
+    }
+
+    #inputGroup .button:nth-child(2) {
+        border-radius: 0 0 0 5px;
+        border-right: 0;
+    }
+
+    #inputGroup .button:nth-child(4) {
+        border-radius: 0 0 5px 0;
+        border-left: 0;
+    }
+
+    #clan {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        background: #232f3e;
+        display: none;
+    }
+
+    #clan input[type=text] {
+        margin-top: 10px;
+        width: calc(100% - 20px);
+        font-size: 16px;
+        line-height: unset;
+        border-radius: 5px;
+    }
+
+    #chars {
+        padding-bottom: 10px;
+    }
+
+    #tabs {
+        padding: 0 10px 0 10px;
+        display: flex;
+    }
+
+    #tabs div {
+        padding: 5px 0;
+        width: 100%;
+        font-weight: bold;
+        background: #232f3e;
+        border: 1px solid #f2f2f2;
+        border-top: 1px solid #232f3e;
+        border-right: 1px solid #232f3e;
+
+        color: white;
+        cursor: pointer;
+    }
+
+    #tabs #tabLetters {
+        border-right: 0;
+        border-left: 1px solid #131921;
+    }
+
+    #tabs div.selected,
+    #tabs div:hover {
+        border: 1px solid #f2f2f2;
+        border-left: 1px solid #f2f2f2 !important;
+        background: #131921;
+        color: #ff9900;
+        border-bottom: 1px solid #131921;
+    }
+
+    #fancytext {
+        background: #131921;
+        margin: 0 10px;
+        border: 1px solid #f2f2f2;
+        border-top: 0;
+    }
+
+    .grid_13_2 {
+        display: grid;
+        grid-template-columns: repeat(13, 1fr);
+        grid-template-rows: repeat(2, 35px);
+        justify-content: center;
+        align-items: center;
+        background: #131921;
+        padding: 10px 0;
+        gap: 10px;
+    }
+
+    .grid_13_2:nth-child(even) {
+        background: #232f3e;
+    }
+
+    .grid_13_1 {
+        display: grid;
+        grid-template-columns: repeat(13, 1fr);
+        grid-template-rows: repeat(1, 35px);
+        justify-content: center;
+        align-items: center;
+        background: #131921;
+        padding: 10px 0;
+        gap: 10px;
+    }
+
+    .grid_13_1:nth-child(even) {
+        background: #232f3e;
+    }
+
+    .flex {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0 20px 16%
+    }
+
+    .flex div {
+        width: 50%;
+        text-align: left;
+    }
+
+    .demo {
+        padding: 10px 0 20px 0;
+        background: #131921;
+
+    }
+
+    .btn {
+        cursor: pointer;
+    }
+
+    #symbols {
+        display: none;
+    }
+
+    #stacked {
+        border: 1px solid #f2f2f2;
+        margin: 0px 10px 10px 10px;
+        padding: 10px 0 0 0;
+    }
+
+    #stacked .grid_13_1 {
+        background: #131921;
+    }
+
+    #name {
+        border-radius: 5px;
+        width: calc(100% - 20px);
+        margin: 10px 0;
+        padding-right: 50px;
+        height: 46px;
+        line-height: 46px;
+        padding-bottom: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        background: #232f3e;
+        width: 760px;
+        padding: 5px 0;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .highlight,
+    .highlight * {
+        padding: 5px;
+        cursor: pointer;
+        transition: color 1s;
+    }
+
+    .highlight:hover,
+    .highlight:hover * {
+        color: #ff9900;
+    }
+
+    #lang-wrapper {
+        top: 7px;
+        left: calc(50vw - 17px);
+        position: absolute;
+        height: 30px;
+        width: 35px;
+        background: #131921;
+        overflow: hidden;
+        z-index: 999;
+        transition: height 0.3s;
+    }
+
+    #lang {
+        padding: 5px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #faq {
+        text-align: left;
+        border-radius: 5px;
+    }
+
+    #faq div {
+        padding: 10px;
+    }
+
+    #faq div:nth-child(1) {
+        border-radius: 5px 5px 0 0;
+    }
+
+    #faq div:nth-child(odd) {
+        text-transform: uppercase;
+        font-weight: bold;
+        background: #131921;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    #copybtn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #007bff;
+        fill: white;
+        padding: 5px;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+
+    #fancytext .sample {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .demo .sample {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #tooltip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        font-size: 30px;
+        border: 1px solid #f2f2f2;
+        border-radius: 5px;
+        display: none;
+    }
