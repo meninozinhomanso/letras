@@ -12,18 +12,7 @@
 .f1,.f2 { width: 100%; background: #41ea41; height: auto; font-size:1em; text-align:center;padding:19px ;}
 .f2 { background: #cfef0a;border:7px solid #0a1416;}
 .f2{border-radius: 20px;}
-#men3 a,#men5 a{font-size: 0.72em;
-line-height: 1.32;
-min-height: 120px;
-min-width: 125px;
-float: left;
-margin: 0 12px 12px 0;
-border: 1px solid #40cde9;
-color: #111;
-width: 210px;
-height: 132px;
-overflow: hidden;
-background: #c33939;
+
 }
 #men5 a{width: 240px;height: 270px;font-size:0.45em;}
 #men3 a:hover,#men5 a:hover{background:#7bc1e0;}
@@ -41,29 +30,7 @@ background: #c33939;
 .recuadro{
 padding: 7px;
 background: #b48181;
-margin:7px 0 7px 0;
+margin:9px 0 7px 0;
 }
-.mobile-index-arrow {
-font-size: 45pt;
-font-family: Arial;
-display: -webkit-box;
--webkit-box-align: center;
-height: 100%;
-line-height: .3em;
-float:right;
-top: 0;
-right: 0;
-}
-.mobile-post-outer{border-bottom:1px solid silver;padding:7px 0 7px 0;}
-.menu-mov{padding:11px;float:right;}
-.opciones{ margin:10px 0 10px 0; font-size:0.9em;}
-.menu-select{background:#3da5d5;color:#b26767;font-size:22px;width:121px;}
-@media only screen and (min-width:768px){
-.columns-inner{position:relative;}
-.column-center-outer{
-float:left;
-min-height: 1140px;
-margin-left:252px;
 
-}
 .
