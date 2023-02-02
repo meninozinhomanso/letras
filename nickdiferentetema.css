@@ -1,0 +1,105 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+}
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #456dc1;
+}
+
+::selection {
+  color: black;
+  background: #0079bb;
+}
+.opc{margin: 5px auto;text-align:center;}
+.opc div {margin: 0px;display: inline-block;}
+.opc a,.opc a:link,.opc a:visited,.memes3 a {display: inline-block;background:#0EB9DF; width: 95%;margin: 3px 6px;font-size:1.1em;color:#FFF;text-decoration:none;padding: 3px 7px;line-height: 22px; cursor: pointer;}
+.opc .face2 a {background: #677ead; width: unset;}
+.opc .twit a {background: #992de1;display:inline;}
+.opc .goog a {background: #dd4b39;width: unset;}
+.opc .pint a {background: #ca2128;width: unset;}
+.opc .mene a {background: #0eb9df;width: unset;}
+.opc .link a {background: #0079BB;width: unset;}
+.opc li a:hover,.opc a:hover,.memes3 a:hover{background:#48CDEB;}
+.memes3 a,.memes3 a:link{background:#d50c0c;color: #111;border:2px solid #edc4c4;}
+.opc a{margin:0 6px;}
+.f1,.f2 { width: 100%; background: #41ea41; height: auto; font-size:1em; text-align:center;padding:19px ;}
+.f2 { background: #cfef0a;border:7px solid #0a1416;}
+.f2{border-radius: 20px;}
+#men3 a,#men5 a{font-size: 0.72em;
+line-height: 1.32;
+min-height: 120px;
+min-width: 125px;
+float: left;
+margin: 0 12px 12px 0;
+border: 1px solid #40cde9;
+color: #111;
+width: 210px;
+height: 132px;
+overflow: hidden;
+background: #c33939;
+}
+#men5 a{width: 240px;height: 270px;font-size:0.45em;}
+#men3 a:hover,#men5 a:hover{background:#7bc1e0;}
+.item-control{ display:none;}
+.simb span,.menu_item{background-color: #d1b1b1; display: inline-block; border: 1px #ad3e3e solid; text-align: center; margin: 0 3px 3px 0; width: 35px; height: 35px; font-size: 26px; line-height: 35px;
+}
+.domlibre{clear:both;}
+.domlibre span,.domlibre2 div{display: inline-block; border: 1px #c96c6c solid; text-align: center; margin: 0 12px 12px 0;font-size: 24px;padding:12px;width:180px;}
+.domlibre2 div{width:auto;height:78px;font-size:1.23em;box-sizing: border-box;float:left;}
+.domlibre2 span:hover{background:#8ccce1;}
+.domlibre2 span{clear:both;display:block;background:#8fc5d8;border:1px solid #dc2424;margin-top:6px;width: 72px;margin: 6px auto 0 auto;}
+.domlibre2 p{padding:0;margin:0;}
+.simb span:hover, #hover,.emoji_menu span:hover,.domlibre span:hover,.domlibre2 div:hover {background-color: #b51f1f;cursor: pointer;}
+
+.recuadro{
+padding: 7px;
+background: #b48181;
+margin:7px 0 7px 0;
+}
+.mobile-index-arrow {
+font-size: 45pt;
+font-family: Arial;
+display: -webkit-box;
+-webkit-box-align: center;
+height: 100%;
+line-height: .3em;
+float:right;
+top: 0;
+right: 0;
+}
+.mobile-post-outer{border-bottom:1px solid silver;padding:7px 0 7px 0;}
+.menu-mov{padding:11px;float:right;}
+.opciones{ margin:10px 0 10px 0; font-size:0.9em;}
+.menu-select{background:#3da5d5;color:#b26767;font-size:22px;width:121px;}
+/*-------parte mas importante del menu para moviles-------*/
+.close{display:none;}/*boton cerrar oculto*/
+.otrasle{background:#538cc8;}
+#div_movible{ top: 3px;  z-index: 2;min-width:250px; width:97%; max-width:600px; background:#a9c9d3;background-color: rgb(102 172 213 / 30%);border-radius: 10px !important; margin:0 auto;}
+
+@media only screen and (min-width:768px){
+.columns-inner{position:relative;}
+.column-center-outer{
+float:left;
+min-height: 1140px;
+margin-left:252px;
+}
+.column-right-outer{
+float:left;
+width:240px;
+position:absolute;
+top:0;
+}
+.menu-mov {
+display:none;
+}
+.opciones{
+display: block;
+}
+}
+.
