@@ -1,23 +1,4 @@
-body{
-	font-family: 'Open Sans',sans-serif;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  left:0;
-  width: 100%;
-}
-::-moz-selection { /* Code for Firefox */
-  color: black;
-  background: #456dc1;
-}
-
-::selection {
-  color: black;
-  background: #0079bb;
-}
-.opc{margin: 5px auto;text-align:center;}
-.opc div {margin: 0px;display: inline-block;}
 .opc a,.opc a:link,.opc a:visited,.memes3 a {display: inline-block;background:#0EB9DF; width: 95%;margin: 3px 6px;font-size:1.1em;color:#FFF;text-decoration:none;padding: 3px 7px;line-height: 22px; cursor: pointer;}
 .opc .face2 a {background: #677ead; width: unset;}
 .opc .twit a {background: #992de1;display:inline;}
@@ -77,29 +58,12 @@ right: 0;
 .menu-mov{padding:11px;float:right;}
 .opciones{ margin:10px 0 10px 0; font-size:0.9em;}
 .menu-select{background:#3da5d5;color:#b26767;font-size:22px;width:121px;}
-/*-------parte mas importante del menu para moviles-------*/
-.close{display:none;}/*boton cerrar oculto*/
-.otrasle{background:#538cc8;}
-#div_movible{ top: 3px;  z-index: 2;min-width:250px; width:97%; max-width:600px; background:#a9c9d3;background-color: rgb(102 172 213 / 30%);border-radius: 10px !important; margin:0 auto;}
-
 @media only screen and (min-width:768px){
 .columns-inner{position:relative;}
 .column-center-outer{
 float:left;
 min-height: 1140px;
 margin-left:252px;
-}
-.column-right-outer{
-float:left;
-width:240px;
-position:absolute;
-top:0;
-}
-.menu-mov {
-display:none;
-}
-.opciones{
-display: block;
-}
+
 }
 .
