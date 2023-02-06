@@ -9,8 +9,8 @@
 .opc li a:hover,.opc a:hover,.memes3 a:hover{background:#48CDEB;}
 .memes3 a,.memes3 a:link{background:#d50c0c;color: #111;border:2px solid #edc4c4;}
 .opc a{margin:0 6px;}
-.f1,.f2 { width: 100%; background: #41ea41; height: auto; font-size:1em; text-align:center;padding:19px ;}
-.f2 { background: #cfef0a;border:7px solid #0a1416;}
+.f1,.f2 { width: 100%; background: #41ea41; height: auto; font-size:3em; text-align:center;padding:19px ;}
+.f2 { background: #e00ab4;border:9px solid #e8c20d;}
 .f2{border-radius: 20px;}
 
 }
@@ -20,7 +20,7 @@
 .simb span,.menu_item{background-color: #d1b1b1; display: inline-block; border: 1px #ad3e3e solid; text-align: center; margin: 0 3px 3px 0; width: 35px; height: 35px; font-size: 26px; line-height: 35px;
 }
 .domlibre{clear:both;}
-.domlibre span,.domlibre2 div{display: inline-block; border: 1px #c96c6c solid; text-align: center; margin: 0 12px 12px 0;font-size: 24px;padding:12px;width:180px;}
+.domlibre span,.domlibre2 div{display: inline-block; border: 1px #c96c6c solid; text-align: center; margin: 0 14px 14px 0;font-size: 24px;padding:16px;width:180px;}
 .domlibre2 div{width:auto;height:78px;font-size:1.23em;box-sizing: border-box;float:left;}
 .domlibre2 span:hover{background:#8ccce1;}
 .domlibre2 span{clear:both;display:block;background:#8fc5d8;border:1px solid #dc2424;margin-top:6px;width: 72px;margin: 6px auto 0 auto;}
@@ -28,9 +28,7 @@
 .simb span:hover, #hover,.emoji_menu span:hover,.domlibre span:hover,.domlibre2 div:hover {background-color: #b51f1f;cursor: pointer;}
 
 .recuadro{
-padding: 7px;
+padding: 9px;
 background: #b48181;
-margin:9px 0 7px 0;
+margin:11px 0 9px 0;
 }
-
-.
